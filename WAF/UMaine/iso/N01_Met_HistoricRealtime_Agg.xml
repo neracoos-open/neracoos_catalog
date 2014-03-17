@@ -131,7 +131,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: N01 Northeast Channel: N01 MET Northeast Channel</gco:CharacterString>
+                  <gco:CharacterString>Eric NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: N01 Northeast Channel: N01 MET Northeast Channel</gco:CharacterString>
                </gmd:title>
                <gmd:date gco:nilReason="missing"/>
                <gmd:identifier>
