@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-03-16</gco:Date>
+      <gco:Date>2014-03-18</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -131,7 +131,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>TEST NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: N01 Northeast Channel: N01 MET Northeast Channel</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: N01 Northeast Channel: N01 MET Northeast Channel</gco:CharacterString>
                </gmd:title>
                <gmd:date gco:nilReason="missing"/>
                <gmd:identifier>
