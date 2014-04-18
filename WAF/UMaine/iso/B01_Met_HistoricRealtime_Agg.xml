@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>404447</gco:Integer>
+                  <gco:Integer>404501</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">996.0</gco:Measure>
@@ -499,7 +499,7 @@
                         <gml:TimePeriod gml:id="d199">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2001-07-09T12:51:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-18T11:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-04-18T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -622,7 +622,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d199e94">
                            <gml:beginPosition>2001-07-09T12:51:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-18T11:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-04-18T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -775,7 +775,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d199e93">
                            <gml:beginPosition>2001-07-09T12:51:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-18T11:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-04-18T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
