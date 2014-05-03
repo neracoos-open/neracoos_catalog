@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-05-02</gco:Date>
+      <gco:Date>2014-05-03</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -477,10 +477,10 @@
                         <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.49021530151367</gco:Decimal>
+                        <gco:Decimal>43.490699768066406</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.49021530151367</gco:Decimal>
+                        <gco:Decimal>43.490699768066406</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -601,17 +601,17 @@
                         <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.49021530151367</gco:Decimal>
+                        <gco:Decimal>43.490699768066406</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.49021530151367</gco:Decimal>
+                        <gco:Decimal>43.490699768066406</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d275e117">
+                        <gml:TimePeriod gml:id="d275e115">
                            <gml:beginPosition>2003-07-09T04:30:00Z</gml:beginPosition>
                            <gml:endPosition>2014-03-21T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -754,17 +754,17 @@
                         <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.49021530151367</gco:Decimal>
+                        <gco:Decimal>43.490699768066406</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.49021530151367</gco:Decimal>
+                        <gco:Decimal>43.490699768066406</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d275e116">
+                        <gml:TimePeriod gml:id="d275e114">
                            <gml:beginPosition>2003-07-09T04:30:00Z</gml:beginPosition>
                            <gml:endPosition>2014-03-21T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -837,7 +837,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>M0122 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>M01 (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1268,11 +1268,15 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>2013-06-24 03:35:06:  Modified [lon,lat] to [-67.879802,43.490217].
-2013-06-24 03:34:41:  Modified [lon,lat] to [-68.109303,44.106125].
-2013-06-24 03:33:53:  Modified [lon,lat] to [-67.879802,43.490217].
-2013-06-23 20:55:45:  Modified [lon,lat] to [-67.879736,43.489809].
-Sun Jun 23 17:28:55 2013: /usr/local/bin/ncrcat -d time,56466.69028,56467.00 M0122.sbe37.goes-realtime.50m.nc M0122.sbe37.goes-realtime.50m.nc.new
+                  <gco:CharacterString>Wed Apr 24 15:55:36 2013: ncrcat -d time,51000.00,56225.58680 M01.sbe37.historical.50m.nc new.nc
+Wed Apr 24 13:01:34 2013: /usr/local/bin/ncrcat M01.sbe37.historical.50m.nc M0121.sbe37.realtime.50m.nc M01.sbe37.historical.50m.nc.new
+Thu Oct 25 15:32:17 2012: /usr/local/bin/ncrcat M01.sbe37.historical.50m.nc M0120.sbe37.realtime.50m.nc M01.sbe37.historical.50m.nc.new
+Thu Apr 12 18:00:45 2012: /usr/local/bin/ncrcat M01.sbe37.historical.50m.nc M0119.sbe37.realtime.50m.nc M01.sbe37.historical.50m.nc.new
+Mon Jan 30 19:31:55 2012: /usr/local/bin/ncrcat M01.sbe37.historical.50m.nc M0118.sbe37.realtime.50m.nc M01.sbe37.historical.50m.nc.new
+Wed Jun 22 17:11:50 2011: ncrcat -d time,51000.00,55356.5451389 M01.sbe37.historical.50m.nc new.nc
+Thu Jun  9 19:43:32 2011: ncrcat -d time,51000.00,55356.54514 M01.sbe37.historical.50m.nc new.nc
+Fri Jun  3 19:36:30 2011: /usr/local/bin/ncrcat M01.sbe37.historical.50m.nc M0117.sbe37.realtime.50m.nc M01.sbe37.historical.50m.nc.new
+Thu Feb 21 17:59:11 2008: ncrcat -d time,52829.18542,52919.70139 M0103.sbe37.post-recovery.50m.nc new.nc
 </gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>

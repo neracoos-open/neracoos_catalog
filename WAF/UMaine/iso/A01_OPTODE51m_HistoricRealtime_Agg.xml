@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-05-02</gco:Date>
+      <gco:Date>2014-05-03</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>39377</gco:Integer>
+                  <gco:Integer>39401</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">4474.0</gco:Measure>
+                  <gco:Measure uom="seconds">4473.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -462,16 +462,16 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-70.56568145751953</gco:Decimal>
+                        <gco:Decimal>-70.56549835205078</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-70.56568145751953</gco:Decimal>
+                        <gco:Decimal>-70.56549835205078</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.5223503112793</gco:Decimal>
+                        <gco:Decimal>42.52320098876953</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.5223503112793</gco:Decimal>
+                        <gco:Decimal>42.52320098876953</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -481,7 +481,7 @@
                         <gml:TimePeriod gml:id="d167">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2008-10-01T15:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-02T20:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-03T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -586,25 +586,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-70.56568145751953</gco:Decimal>
+                        <gco:Decimal>-70.56549835205078</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-70.56568145751953</gco:Decimal>
+                        <gco:Decimal>-70.56549835205078</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.5223503112793</gco:Decimal>
+                        <gco:Decimal>42.52320098876953</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.5223503112793</gco:Decimal>
+                        <gco:Decimal>42.52320098876953</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d167e120">
+                        <gml:TimePeriod gml:id="d167e112">
                            <gml:beginPosition>2008-10-01T15:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-02T20:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-03T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -739,25 +739,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-70.56568145751953</gco:Decimal>
+                        <gco:Decimal>-70.56549835205078</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-70.56568145751953</gco:Decimal>
+                        <gco:Decimal>-70.56549835205078</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.5223503112793</gco:Decimal>
+                        <gco:Decimal>42.52320098876953</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.5223503112793</gco:Decimal>
+                        <gco:Decimal>42.52320098876953</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d167e119">
+                        <gml:TimePeriod gml:id="d167e111">
                            <gml:beginPosition>2008-10-01T15:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-02T20:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-03T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -828,7 +828,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>A0131 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>A01 (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1259,8 +1259,12 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>2013-10-30 19:10:02:  Modified [lon,lat] to [-70.565683,42.522352].
-Tue Oct 29 21:47:07 2013: /usr/local/bin/ncrcat -d time,56594.86250,56595.00 A0131.optode.realtime.51m.nc A0131.optode.realtime.51m.nc.new
+                  <gco:CharacterString>Tue Oct 29 17:56:16 2013: /usr/local/bin/ncrcat A01.optode.historical.51m.nc A0130.optode.realtime.51m.nc A01.optode.historical.51m.nc.new
+Thu Jun 20 03:00:15 2013: /usr/local/bin/ncrcat A01.optode.historical.51m.nc A0129.optode.realtime.51m.nc A01.optode.historical.51m.nc.new
+Fri Nov  9 20:27:30 2012: ncrcat -d time,50000.00,56033.81111 A01.optode.historical.51m.nc new.nc
+Mon Oct 22 19:11:07 2012: /usr/local/bin/ncrcat A01.optode.historical.51m.nc A0128.optode.realtime.51m.nc A01.optode.historical.51m.nc.new
+Mon Apr 16 13:23:18 2012: /usr/local/bin/ncrcat A01.optode.historical.51m.nc A0127.optode.realtime.51m.nc A01.optode.historical.51m.nc.new
+Sat Oct  8 15:01:14 2011: /usr/local/bin/ncrcat A01.optode.historical.51m.nc A0126.optode.realtime.51m.nc A01.optode.historical.51m.nc.new
 </gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
