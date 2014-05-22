@@ -96,7 +96,7 @@ if not args.rename:
     print "ncISO Done:", ret
 # end if not args.rename only
 
-if args.dont_rename:
+if not args.dont_rename:
   # Rename the ISO files
   for file in glob.iglob(waf_dir + '/iso/thredds_*.xml'):
     new_file = new_name(file, 5)
