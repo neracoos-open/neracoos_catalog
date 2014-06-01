@@ -44,7 +44,7 @@
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                        <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-05-30</gco:Date>
+      <gco:Date>2014-05-31</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>100794</gco:Integer>
+                  <gco:Integer>100802</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">3970.0</gco:Measure>
+                  <gco:Measure uom="seconds">4031.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -162,7 +162,7 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -210,9 +210,6 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
-               <gmd:otherCitationDetails>
-                  <gco:CharacterString>processed with MATLAB</gco:CharacterString>
-               </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
@@ -234,7 +231,7 @@
                      <gmd:address>
                         <gmd:CI_Address>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                              <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
@@ -354,31 +351,37 @@
                   <gco:CharacterString>sea_water_velocity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>current_speed data_quality</gco:CharacterString>
+                  <gco:CharacterString>sea_water_velocity data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>direction_of_sea_water_velocity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>current_direction data_quality</gco:CharacterString>
+                  <gco:CharacterString>direction_of_sea_water_velocity data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>eastward_sea_water_velocity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>current_u data_quality</gco:CharacterString>
+                  <gco:CharacterString>eastward_sea_water_velocity data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>northward_sea_water_velocity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>current_v data_quality</gco:CharacterString>
+                  <gco:CharacterString>northward_sea_water_velocity data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>sea_water_temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>temperature data_quality</gco:CharacterString>
+                  <gco:CharacterString>sea_water_temperature data_quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>time_created</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>time_modified</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>longitude</gco:CharacterString>
@@ -474,16 +477,16 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.49021530151367</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.49021530151367</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -493,7 +496,7 @@
                         <gml:TimePeriod gml:id="d265">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2001-07-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-03-21T12:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-31T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -534,7 +537,7 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -598,25 +601,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.49021530151367</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.49021530151367</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d265e94">
+                        <gml:TimePeriod gml:id="d265e115">
                            <gml:beginPosition>2001-07-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-03-21T12:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-31T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -687,7 +690,7 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -751,25 +754,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-67.87979888916016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.49021530151367</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.49021530151367</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d265e93">
+                        <gml:TimePeriod gml:id="d265e114">
                            <gml:beginPosition>2001-07-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-03-21T12:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-31T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -840,7 +843,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>M01 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>M0122 (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -883,7 +886,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Current Speed QC (current_speed data_quality)</gco:CharacterString>
+                  <gco:CharacterString>Current Speed Quality (sea_water_velocity data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
@@ -927,7 +930,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Current Direction QC (current_direction data_quality)</gco:CharacterString>
+                  <gco:CharacterString>Current Direction QC (direction_of_sea_water_velocity data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
@@ -971,7 +974,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>East Current Velocity Component QC (current_u data_quality)</gco:CharacterString>
+                  <gco:CharacterString>East Current Velocity Component QC (eastward_sea_water_velocity data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
@@ -1015,7 +1018,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>North Current Velocity Component QC (current_v data_quality)</gco:CharacterString>
+                  <gco:CharacterString>North Current Velocity Component QC (northward_sea_water_velocity data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
@@ -1059,9 +1062,53 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Water Temperature QC (temperature data_quality)</gco:CharacterString>
+                  <gco:CharacterString>Water Temperature QC (sea_water_temperature data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>time_created</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>double</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Time Record Created (time_created)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>time_modified</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>double</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Time Record Last Modified (time_modified)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1271,39 +1318,11 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Wed Apr 24 13:00:39 2013: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0121.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Thu Oct 25 15:31:25 2012: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0120.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Thu Apr 12 17:59:48 2012: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0119.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Mon Jan 30 19:30:27 2012: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0118.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Fri Jun  3 19:35:45 2011: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0117.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Wed Jun  9 12:22:14 2010: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0116.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Fri Oct  2 16:20:17 2009: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0115.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Mon Mar 30 16:36:25 2009: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0114.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Mon Mar 30 16:23:55 2009: /usr/local/bin/ncrcat -d time,49916.454861111,54916.454861111 M01.aanderaa.historical.nc M01.aanderaa.historical.nc.new
-Thu Mar 26 14:52:18 2009: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0114.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Wed Sep 24 20:38:30 2008: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0113.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Wed Jan 23 17:39:13 2008: ncrcat -d time,50100.00,54364.843 M01.aanderaa.historical.nc new.nc
-Wed Dec 19 12:25:00 2007: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0112.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Tue May 22 21:46:59 2007: /usr/local/bin/ncrcat M01.aanderaa.historical.nc M0110.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Tue Jul 18 02:02:13 2006: /usr/local/nco/bin/ncrcat M01.aanderaa.historical.nc M0109.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Thu Feb 23 06:36:57 2006: /usr/local/nco/bin/ncrcat M01.aanderaa.historical.nc M0108.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Tue Oct  4 21:03:32 2005: /usr/local/nco/bin/ncrcat M01.aanderaa.historical.nc M0107.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Tue May 17 23:51:44 2005: /usr/local/nco/bin/ncrcat M01.aanderaa.historical.nc M0106.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Mon Oct  4 14:55:08 2004: /usr/local/nco/bin/ncrcat M01.aanderaa.historical.nc M0105.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-Tue Jun  8 13:58:22 2004: /usr/local/nco/bin/ncrcat M01.aanderaa.historical.nc M0104.aanderaa.realtime.nc M01.aanderaa.historical.nc.new
-07-Oct-2003 23:56:38:  Tentatively added M0103 realtime data starting at 2003-7-9 05:00:00, julian day 2452830.20833333
-Tue Oct  7 23:41:49 2003: ncrcat /data/gomoos/buoy/archive/M01/M01.aanderaa.historical.nc /data/gomoos/buoy/archive/M0103/realtime/M0103.aanderaa.realtime.nc M01.aanderaa.historical.nc
-27-Jun-2003 13:01:35:  Added ancillary_variables, intent attributes for CF compliance.
-Tue Jun 10 12:32:03 2003: ncrcat /data/gomoos/buoy/M0101/post-recovery/M0101.aanderaa.post-recovery.nc /data/gomoos/buoy/M0102/post-recovery/M0102.aanderaa.post-recovery.nc M01.aanderaa.historical.nc
-Tue Jun 10 12:31:00 2003: Data thru 2001-07-18 16:00:00 was very spikey, assigned quality of questionable.
-Tue Jun 09 16:00:00 2003: Post recovery downloads retrieved.
-Tue May 29 10:00:00 2003:  M0102 recovered by R/V Argo Maine, all instrumentation okay
-2002-11-14 12:00:00:  Last Goes transmission
-2002-06-04 11:00:00:  M0102 deployed
-2001-10-26 10:00:00:  GOES transmissions no longer being received
-2001-08-23 00:00:00:  Buoy is transmitting again, but data delivery is intermittent.
-2001-08-17 00:00:00:  Appears to have stopped transmitting. 
-2001-07-16 12:00:00:  M0101 deployed.
+                  <gco:CharacterString>2013-06-24 03:35:06:  Modified [lon,lat] to [-67.879802,43.490217].
+2013-06-24 03:34:41:  Modified [lon,lat] to [-68.109303,44.106125].
+2013-06-24 03:33:53:  Modified [lon,lat] to [-67.879802,43.490217].
+2013-06-23 20:55:45:  Modified [lon,lat] to [-67.879736,43.489809].
+Sun Jun 23 17:28:55 2013: /usr/local/bin/ncrcat -d time,56466.69028,56467.00 M0122.aanderaa.goes-realtime.nc M0122.aanderaa.goes-realtime.nc.new
 </gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
