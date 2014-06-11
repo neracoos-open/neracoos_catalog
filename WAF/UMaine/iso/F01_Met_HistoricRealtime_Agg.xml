@@ -44,14 +44,14 @@
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
+                        <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
                <gmd:onlineResource>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
+                        <gmd:URL>http://gyre.umeoce.maine.edu/</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>http</gco:CharacterString>
@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-06-08</gco:Date>
+      <gco:Date>2014-06-10</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>377665</gco:Integer>
+                  <gco:Integer>377956</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">1162.0</gco:Measure>
@@ -162,14 +162,14 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
                            <gmd:onlineResource>
                               <gmd:CI_OnlineResource>
                                  <gmd:linkage>
-                                    <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
+                                    <gmd:URL>http://gyre.umeoce.maine.edu/</gmd:URL>
                                  </gmd:linkage>
                                  <gmd:protocol>
                                     <gco:CharacterString>http</gco:CharacterString>
@@ -210,6 +210,9 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>processed with MATLAB</gco:CharacterString>
+               </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
@@ -231,14 +234,14 @@
                      <gmd:address>
                         <gmd:CI_Address>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
+                              <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
                      <gmd:onlineResource>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
+                              <gmd:URL>http://gyre.umeoce.maine.edu/</gmd:URL>
                            </gmd:linkage>
                            <gmd:protocol>
                               <gco:CharacterString>http</gco:CharacterString>
@@ -363,12 +366,6 @@
                   <gco:CharacterString>wind_gust data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>wind_gust_1s data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_min data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
                   <gco:CharacterString>wind_speed</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
@@ -378,34 +375,7 @@
                   <gco:CharacterString>wind_from_direction</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>wind_from_direction data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_gust data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_gust_1s data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_min data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_speed</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_speed data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_from_direction</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_from_direction data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_percent_good</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>wind_2_percent_good data_quality</gco:CharacterString>
+                  <gco:CharacterString>wind_direction data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>use_wind</gco:CharacterString>
@@ -414,13 +384,7 @@
                   <gco:CharacterString>visibility_in_air</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>visibility_in_air data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>time_created</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>time_modified</gco:CharacterString>
+                  <gco:CharacterString>visibility data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>longitude</gco:CharacterString>
@@ -516,26 +480,26 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-68.99528503417969</gco:Decimal>
+                        <gco:Decimal/>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-68.99528503417969</gco:Decimal>
+                        <gco:Decimal>9.969209968386869E36</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.054107666015625</gco:Decimal>
+                        <gco:Decimal/>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>44.054107666015625</gco:Decimal>
+                        <gco:Decimal>9.969209968386869E36</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d221">
+                        <gml:TimePeriod gml:id="d219">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2000-07-10T19:00:02Z</gml:beginPosition>
-                           <gml:endPosition>2014-06-08T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2014-06-10T22:30:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -576,14 +540,14 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
                            <gmd:onlineResource>
                               <gmd:CI_OnlineResource>
                                  <gmd:linkage>
-                                    <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
+                                    <gmd:URL>http://gyre.umeoce.maine.edu/</gmd:URL>
                                  </gmd:linkage>
                                  <gmd:protocol>
                                     <gco:CharacterString>http</gco:CharacterString>
@@ -640,25 +604,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-68.99528503417969</gco:Decimal>
+                        <gco:Decimal/>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-68.99528503417969</gco:Decimal>
+                        <gco:Decimal>9.969209968386869E36</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.054107666015625</gco:Decimal>
+                        <gco:Decimal/>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>44.054107666015625</gco:Decimal>
+                        <gco:Decimal>9.969209968386869E36</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d221e150">
+                        <gml:TimePeriod gml:id="d219e94">
                            <gml:beginPosition>2000-07-10T19:00:02Z</gml:beginPosition>
-                           <gml:endPosition>2014-06-08T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2014-06-10T22:30:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -729,14 +693,14 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
                            <gmd:onlineResource>
                               <gmd:CI_OnlineResource>
                                  <gmd:linkage>
-                                    <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
+                                    <gmd:URL>http://gyre.umeoce.maine.edu/</gmd:URL>
                                  </gmd:linkage>
                                  <gmd:protocol>
                                     <gco:CharacterString>http</gco:CharacterString>
@@ -793,25 +757,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-68.99528503417969</gco:Decimal>
+                        <gco:Decimal/>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-68.99528503417969</gco:Decimal>
+                        <gco:Decimal>9.969209968386869E36</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.054107666015625</gco:Decimal>
+                        <gco:Decimal/>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>44.054107666015625</gco:Decimal>
+                        <gco:Decimal>9.969209968386869E36</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d221e149">
+                        <gml:TimePeriod gml:id="d219e93">
                            <gml:beginPosition>2000-07-10T19:00:02Z</gml:beginPosition>
-                           <gml:endPosition>2014-06-08T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2014-06-10T22:30:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -882,7 +846,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>F0125 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>F01 (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1023,94 +987,6 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>wind_gust_1s</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind Gust 1 sec</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_gust_1s_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind Gust 1 Sec QC (wind_gust_1s data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_min</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind Minimum Speed</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_min_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind Minimum Speed QC (wind_min data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
                         <gco:CharacterString>wind_speed</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
@@ -1189,271 +1065,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Wind Direction QC (wind_from_direction data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_gust</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Gust</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_gust_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Gust QC (wind_2_gust data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_gust_1s</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Gust 1 sec</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_gust_1s_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Gust 1 sec QC (wind_2_gust_1s data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_min</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Minimum</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_min_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Min QC (wind_2_min data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_speed</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Speed (wind_2_speed)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_speed_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Speed QC (wind_2_speed data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_direction</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Direction (wind_2_from_direction)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_true"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_direction_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Direction QC (wind_2_from_direction data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_percent_good</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Percent Good (wind_2_percent_good)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>wind_2_percent_good_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Wind 2 Percent Good QC (wind_2_percent_good data_quality)</gco:CharacterString>
+                  <gco:CharacterString>Wind Direction QC (wind_direction data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
@@ -1519,53 +1131,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Visibility Quality (visibility_in_air data_quality)</gco:CharacterString>
+                  <gco:CharacterString>Visibility Quality (visibility data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>time_created</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>double</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Time Record Created (time_created)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>time_modified</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>double</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Time Record Last Modified (time_modified)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1775,20 +1343,35 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>2014-03-26 18:23:43:  Parameter barometric_pressure marked as non-functional as of julian day 56742.729167 (2014-03-26 17:30:00)
-2014-03-13 16:44:45:  Parameter barometric_pressure marked as non-functional as of julian day 56729.590278 (2014-03-13 14:10:00)
-2014-01-26 11:14:29:  Modified [lon,lat] to [-68.995286,44.054109].
-2014-01-22 21:10:47:  Parameter wind_gust_1s marked as non-functional as of julian day 56679.743056 (2014-01-22 17:50:00)
-2014-01-22 21:10:28:  Parameter wind_1s_gust marked as non-functional as of julian day 56679.743056 (2014-01-22 17:50:00)
-2014-01-22 21:10:21:  Parameter wind_direction marked as non-functional as of julian day 56679.743056 (2014-01-22 17:50:00)
-2014-01-22 21:10:11:  Parameter wind_min marked as non-functional as of julian day 56679.743056 (2014-01-22 17:50:00)
-2014-01-22 21:10:06:  Parameter wind_gust marked as non-functional as of julian day 56679.743056 (2014-01-22 17:50:00)
-2014-01-22 21:09:59:  Parameter wind_speed marked as non-functional as of julian day 56679.743056 (2014-01-22 17:50:00)
-2013-12-15 19:22:22:  Parameter barometric_pressure marked as non-functional as of julian day 56641.736111 (2013-12-15 17:40:00)
-2013-06-25 11:59:46:  Modified [lon,lat] to [-68.996651,44.055453].
-2013-06-23 02:54:20:  Modified [lon,lat] to [-68.996696,44.055984].
-Sun Jun 23 02:14:25 2013: /usr/local/bin/ncrcat -d time,56466.04444,56468.00 F0125.met.realtime.nc F0125.met.realtime.nc.new
-</gco:CharacterString>
+                  <gco:CharacterString>Sun Jun  1 13:25:45 2014: /usr/local/bin/ncrcat F01.met.historical.nc F0125.met.realtime.nc F01.met.historical.nc.new
+Sat Apr 14 10:44:28 2012: /usr/local/bin/ncrcat F01.met.historical.nc F0123.met.realtime.nc F01.met.historical.nc.new
+Tue Mar 20 18:47:50 2012: /usr/local/bin/ncrcat F01.met.historical.nc F0122.met.realtime.nc F01.met.historical.nc.new
+Tue Jan  4 22:16:43 2011: /usr/local/bin/ncrcat F01.met.historical.nc F0121.met.realtime.nc F01.met.historical.nc.new
+Thu Sep 17 14:57:19 2009: /usr/local/bin/ncrcat F01.met.historical.nc F0120.met.realtime.nc F01.met.historical.nc.new
+Wed May 27 17:28:56 2009: /usr/local/bin/ncrcat F01.met.historical.nc F0119.met.realtime.nc F01.met.historical.nc.new
+Thu Mar 26 00:26:05 2009: /usr/local/bin/ncrcat F01.met.historical.nc F0118.met.realtime.nc F01.met.historical.nc.new
+Fri Sep 26 01:20:11 2008: /usr/local/bin/ncrcat F01.met.historical.nc F0117.met.realtime.nc F01.met.historical.nc.new
+Tue Apr 22 15:47:15 2008: /usr/local/bin/ncrcat F01.met.historical.nc F0116.met.realtime.nc F01.met.historical.nc.new
+Thu May 10 13:53:53 2007: /usr/local/bin/ncrcat F01.met.historical.nc F0114.met.realtime.nc F01.met.historical.nc.new
+Wed Nov  8 17:00:28 2006: ncks -a F01.met.historical.nc new.nc
+Fri Sep 15 11:41:12 2006: /usr/local/bin/ncrcat F01.met.historical.nc F0113.met.realtime.nc F01.met.historical.nc.new
+Wed May 10 02:18:30 2006: /usr/local/nco/bin/ncrcat F01.met.historical.nc F0112.met.realtime.nc F01.met.historical.nc.new
+Thu Feb 23 17:28:03 2006: /usr/local/nco/bin/ncrcat F01.met.historical.nc F0111.met.realtime.nc F01.met.historical.nc.new
+Wed Sep 28 13:21:25 2005: /usr/local/nco/bin/ncrcat F01.met.historical.nc F0110.met.realtime.nc F01.met.historical.nc.new
+Tue May 31 14:31:18 2005: /usr/local/nco/bin/ncrcat F01.met.historical.nc F0109.met.realtime.nc F01.met.historical.nc.new
+Sat Nov 20 01:46:11 2004: ncks -A F01.met.historical.nc F01.met.historical_newbaro.nc
+Tue Oct  5 14:07:47 2004: /usr/local/nco/bin/ncrcat F01.met.historical.nc F0108.met.realtime.nc F01.met.historical.nc.new
+Tue Apr 27 12:29:02 2004: /usr/local/nco/bin/ncrcat F01.met.historical.nc F0107.met.realtime.nc F01.met.historical.nc.new
+26-Sep-2003 01:03:17:  Provisionally appended realtime data from F0106 deployment starting at julian day number 2452830.875
+Fri Sep 26 00:51:35 2003: ncrcat /data/gomoos/buoy/archive/F01/F01.met.historical.nc /data/gomoos/buoy/archive/F0106/realtime/F0106.met.realtime.nc F01.met.historical.nc
+22-Jul-2003 12:24:22:  Provisionally appended with goes-realtime data from F0105 starting with julian date 2452671.79166667
+Tue Jul 22 12:22:58 2003: ncrcat old_F01.met.historical.nc F0105.met.goes-realtime.nc F01.met.historical.nc
+Tue Jul 22 12:22:46 2003: ncatted -a add_offset,,d,, old_F01.met.historical.nc
+Tue Jul 22 12:22:41 2003: ncatted -a scale_factor,,d,, old_F01.met.historical.nc
+27-Jun-2003 13:01:11:  Added ancillary_variables, intent attributes for CF compliance.
+07-Apr-2003 16:03:19:  Moved air_temperature back to celsius.
+28-Mar-2003 17:07:17:  Removed compass, compass_stddev, {min,max}_visibilities, extraneous wind_directions, speeds.  Scaled some parameters to comply with CF standard.
+24-Feb-2003 14:22:21:  Created this file from F0101.met.raw.nc, F0102.met.raw.nc, F0103.met.raw.nc, F0104.met.raw.nc</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
