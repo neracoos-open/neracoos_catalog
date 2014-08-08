@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-08-06</gco:Date>
+      <gco:Date>2014-08-07</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>385871</gco:Integer>
+                  <gco:Integer>386015</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">832.0</gco:Measure>
+                  <gco:Measure uom="seconds">831.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -535,7 +535,7 @@
                         <gml:TimePeriod gml:id="d315">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-08-06T20:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-08-07T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -658,7 +658,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d315e149">
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-08-06T20:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-08-07T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -811,7 +811,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d315e148">
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-08-06T20:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-08-07T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
