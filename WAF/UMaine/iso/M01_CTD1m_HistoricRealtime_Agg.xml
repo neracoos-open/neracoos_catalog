@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-09-18</gco:Date>
+      <gco:Date>2014-09-19</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>150482</gco:Integer>
+                  <gco:Integer>150650</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">2347.0</gco:Measure>
+                  <gco:Measure uom="seconds">2346.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -490,7 +490,7 @@
                         <gml:TimePeriod gml:id="d287">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2003-07-09T05:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-09-18T15:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-09-19T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -611,9 +611,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d287e115">
+                        <gml:TimePeriod gml:id="d287e114">
                            <gml:beginPosition>2003-07-09T05:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-09-18T15:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-09-19T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -764,9 +764,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d287e114">
+                        <gml:TimePeriod gml:id="d287e113">
                            <gml:beginPosition>2003-07-09T05:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-09-18T15:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-09-19T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -837,7 +837,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>M01 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>M0123 (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1268,15 +1268,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Tue Jun  3 11:31:35 2014: /usr/local/bin/ncrcat M01.sbe37.historical.1m.nc M0122.sbe37.realtime.1m.nc M01.sbe37.historical.1m.nc.new
-Wed Apr 24 15:51:37 2013: ncrcat -d time,51000.00,56225.58680 M01.sbe37.historical.1m.nc new.nc
-Wed Apr 24 13:01:17 2013: /usr/local/bin/ncrcat M01.sbe37.historical.1m.nc M0121.sbe37.realtime.1m.nc M01.sbe37.historical.1m.nc.new
-Thu Oct 25 15:32:00 2012: /usr/local/bin/ncrcat M01.sbe37.historical.1m.nc M0120.sbe37.realtime.1m.nc M01.sbe37.historical.1m.nc.new
-Thu Apr 12 18:00:26 2012: /usr/local/bin/ncrcat M01.sbe37.historical.1m.nc M0119.sbe37.realtime.1m.nc M01.sbe37.historical.1m.nc.new
-Mon Jan 30 19:31:36 2012: /usr/local/bin/ncrcat M01.sbe37.historical.1m.nc M0118.sbe37.realtime.1m.nc M01.sbe37.historical.1m.nc.new
-Wed Jun 22 17:06:46 2011: ncrcat -d time,51000.00,55356.5451389 M01.sbe37.historical.1m.nc new.nc
-Fri Jun  3 19:36:13 2011: /usr/local/bin/ncrcat M01.sbe37.historical.1m.nc M0117.sbe37.realtime.1m.nc M01.sbe37.historical.1m.nc.new
-Thu Feb 21 17:57:54 2008: ncrcat -d time,52829.18542,52919.70139 M0103.sbe37.post-recovery.1m.nc new.nc
+                  <gco:CharacterString>Sat May 31 15:39:25 2014: /usr/local/bin/ncrcat -d time,56808.59028,56809.99 M0123.sbe37.goes-realtime.1m.nc M0123.sbe37.goes-realtime.1m.nc.new
 </gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>

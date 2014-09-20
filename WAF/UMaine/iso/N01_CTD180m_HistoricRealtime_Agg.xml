@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-09-18</gco:Date>
+      <gco:Date>2014-09-19</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>114445</gco:Integer>
+                  <gco:Integer>109818</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">2836.0</gco:Measure>
+                  <gco:Measure uom="seconds">2958.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -363,12 +363,6 @@
                   <gco:CharacterString>sea_water_temperature data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>sea_water_pressure</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>sea_water_pressure data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
                   <gco:CharacterString>sea_water_salinity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
@@ -480,16 +474,16 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-65.90618896484375</gco:Decimal>
+                        <gco:Decimal>-65.91691589355469</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-65.90618896484375</gco:Decimal>
+                        <gco:Decimal>-65.91691589355469</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.331302642822266</gco:Decimal>
+                        <gco:Decimal>42.34273910522461</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.331302642822266</gco:Decimal>
+                        <gco:Decimal>42.34273910522461</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -499,7 +493,7 @@
                         <gml:TimePeriod gml:id="d327">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-09-17T00:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-09-19T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -604,16 +598,16 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-65.90618896484375</gco:Decimal>
+                        <gco:Decimal>-65.91691589355469</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-65.90618896484375</gco:Decimal>
+                        <gco:Decimal>-65.91691589355469</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.331302642822266</gco:Decimal>
+                        <gco:Decimal>42.34273910522461</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.331302642822266</gco:Decimal>
+                        <gco:Decimal>42.34273910522461</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -622,7 +616,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d327e116">
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-09-17T00:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-09-19T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -757,16 +751,16 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-65.90618896484375</gco:Decimal>
+                        <gco:Decimal>-65.91691589355469</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-65.90618896484375</gco:Decimal>
+                        <gco:Decimal>-65.91691589355469</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.331302642822266</gco:Decimal>
+                        <gco:Decimal>42.34273910522461</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.331302642822266</gco:Decimal>
+                        <gco:Decimal>42.34273910522461</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -775,7 +769,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d327e115">
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-09-17T00:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-09-19T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -846,7 +840,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>N01 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>N0117 (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -956,50 +950,6 @@
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
                   <gco:CharacterString>Temperature QC (sea_water_temperature data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>pressure</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Water Pressure (sea_water_pressure)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#decibars"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>pressure_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Water Pressure QC (sea_water_pressure data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
@@ -1343,10 +1293,12 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Mon Mar  3 16:33:59 2014: ncrcat -d time,56464.81389,56659.9792 N0116.sbe37.pres.realtime.180m.nc new.nc
-2013-06-22 19:55:07:  Modified [lon,lat] to [-65.906190,42.331303].
-2013-06-21 22:25:14:  Modified [lon,lat] to [-65.906954,42.331384].
-Fri Jun 21 20:33:40 2013: /usr/local/bin/ncrcat -d time,56464.81389,56500.00 N0116.sbe37.pres.realtime.180m.nc N0116.sbe37.pres.realtime.180m.nc.new
+                  <gco:CharacterString>2014-08-15 20:00:37:  Modified [lon,lat] to [-65.916919,42.342740].
+2014-07-06 11:26:06:  Modified [lon,lat] to [-65.903916,42.334563].
+2014-05-31 18:00:08:  Modified [lon,lat] to [-65.907356,42.334303].
+2014-05-30 19:59:07:  Modified [lon,lat] to [-65.906844,42.334723].
+2014-05-30 16:19:14:  Modified [lon,lat] to [-65.906167,42.333667].
+Fri May 30 15:16:44 2014: /usr/local/bin/ncrcat -d time,56807.61805,56808.00 N0117.sbe37.realtime.180m.nc N0117.sbe37.realtime.180m.nc.new
 </gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
