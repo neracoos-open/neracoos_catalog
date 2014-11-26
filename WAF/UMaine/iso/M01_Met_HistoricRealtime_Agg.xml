@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-11-24</gco:Date>
+      <gco:Date>2014-11-25</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>421072</gco:Integer>
+                  <gco:Integer>421216</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">1002.0</gco:Measure>
+                  <gco:Measure uom="seconds">1001.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -499,7 +499,7 @@
                         <gml:TimePeriod gml:id="d285">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2001-07-12T12:04:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-11-24T20:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-11-25T20:29:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -622,7 +622,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d285e98">
                            <gml:beginPosition>2001-07-12T12:04:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-11-24T20:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-11-25T20:29:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -775,7 +775,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d285e97">
                            <gml:beginPosition>2001-07-12T12:04:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-11-24T20:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-11-25T20:29:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1312,6 +1312,9 @@
                            <gmd:linkage>
                               <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/M01/Met/HistoricRealtime/Agg.ncml</gmd:URL>
                            </gmd:linkage>
+                           <gmd:protocol>
+                              <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                           </gmd:protocol>
                            <gmd:name>
                               <gco:CharacterString>Viewer Information</gco:CharacterString>
                            </gmd:name>
