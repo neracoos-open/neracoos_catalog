@@ -54,7 +54,7 @@
                         <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
-                        <gco:CharacterString>http</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:applicationProfile>
                         <gco:CharacterString>web browser</gco:CharacterString>
@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-11-25</gco:Date>
+      <gco:Date>2014-11-26</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>446823</gco:Integer>
+                  <gco:Integer>446967</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">941.0</gco:Measure>
@@ -172,7 +172,7 @@
                                     <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
                                  </gmd:linkage>
                                  <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
+                                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
                                  </gmd:protocol>
                                  <gmd:applicationProfile>
                                     <gco:CharacterString>web browser</gco:CharacterString>
@@ -244,7 +244,7 @@
                               <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
                            </gmd:linkage>
                            <gmd:protocol>
-                              <gco:CharacterString>http</gco:CharacterString>
+                              <gco:CharacterString>WWW:LINK</gco:CharacterString>
                            </gmd:protocol>
                            <gmd:applicationProfile>
                               <gco:CharacterString>web browser</gco:CharacterString>
@@ -499,7 +499,7 @@
                         <gml:TimePeriod gml:id="d265">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2001-07-27T07:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-11-25T23:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-11-26T23:29:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -550,7 +550,7 @@
                                     <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
                                  </gmd:linkage>
                                  <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
+                                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
                                  </gmd:protocol>
                                  <gmd:applicationProfile>
                                     <gco:CharacterString>web browser</gco:CharacterString>
@@ -622,7 +622,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d265e93">
                            <gml:beginPosition>2001-07-27T07:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-11-25T23:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-11-26T23:29:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -655,6 +655,9 @@
                      <gmd:linkage>
                         <gmd:URL>http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/I01/Met/HistoricRealtime/Agg.ncml</gmd:URL>
                      </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OPeNDAP:OPeNDAP</gco:CharacterString>
+                     </gmd:protocol>
                      <gmd:name>
                         <gco:CharacterString>OPeNDAP</gco:CharacterString>
                      </gmd:name>
@@ -703,7 +706,7 @@
                                     <gmd:URL>http://gyre.umeoce.maine.edu</gmd:URL>
                                  </gmd:linkage>
                                  <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
+                                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
                                  </gmd:protocol>
                                  <gmd:applicationProfile>
                                     <gco:CharacterString>web browser</gco:CharacterString>
@@ -775,7 +778,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d265e92">
                            <gml:beginPosition>2001-07-27T07:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-11-25T23:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-11-26T23:29:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -808,6 +811,9 @@
                      <gmd:linkage>
                         <gmd:URL>http://www.neracoos.org/thredds/sos/UMO/DSG/SOS/I01/Met/HistoricRealtime/Agg.ncml?service=SOS&amp;version=1.0.0&amp;request=GetCapabilities</gmd:URL>
                      </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:SOS</gco:CharacterString>
+                     </gmd:protocol>
                      <gmd:name>
                         <gco:CharacterString>OGC-SOS</gco:CharacterString>
                      </gmd:name>
@@ -1251,7 +1257,7 @@
                                     <gmd:URL>http://www.neracoos.org/</gmd:URL>
                                  </gmd:linkage>
                                  <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
+                                    <gco:CharacterString>WWW:LINK</gco:CharacterString>
                                  </gmd:protocol>
                                  <gmd:applicationProfile>
                                     <gco:CharacterString>web browser</gco:CharacterString>
@@ -1291,6 +1297,9 @@
                            <gmd:linkage>
                               <gmd:URL>http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/I01/Met/HistoricRealtime/Agg.ncml.html</gmd:URL>
                            </gmd:linkage>
+                           <gmd:protocol>
+                              <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                           </gmd:protocol>
                            <gmd:name>
                               <gco:CharacterString>File Information</gco:CharacterString>
                            </gmd:name>
@@ -1391,7 +1400,7 @@ Mon Feb 24 14:30:25 2003: ncrcat I0101.met.raw.nc I0102.met.raw.nc I0103.met.raw
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.1. (2014-11-26T19:48:22.215-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
