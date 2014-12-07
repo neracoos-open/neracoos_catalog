@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-12-05</gco:Date>
+      <gco:Date>2014-12-06</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>161888</gco:Integer>
+                  <gco:Integer>161947</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">2614.0</gco:Measure>
@@ -487,7 +487,7 @@
                         <gml:TimePeriod gml:id="d237">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2001-07-08T00:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-12-05T15:59:59Z</gml:endPosition>
+                           <gml:endPosition>2014-12-06T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -608,9 +608,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d237e95">
+                        <gml:TimePeriod gml:id="d237e94">
                            <gml:beginPosition>2001-07-08T00:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-12-05T15:59:59Z</gml:endPosition>
+                           <gml:endPosition>2014-12-06T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -764,9 +764,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d237e94">
+                        <gml:TimePeriod gml:id="d237e93">
                            <gml:beginPosition>2001-07-08T00:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2014-12-05T15:59:59Z</gml:endPosition>
+                           <gml:endPosition>2014-12-06T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1220,61 +1220,11 @@
          </gmd:distributor>
       </gmd:MD_Distribution>
    </gmd:distributionInfo>
-   <gmd:dataQualityInfo>
-      <gmd:DQ_DataQuality>
-         <gmd:scope>
-            <gmd:DQ_Scope>
-               <gmd:level>
-                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-               </gmd:level>
-            </gmd:DQ_Scope>
-         </gmd:scope>
-         <gmd:lineage>
-            <gmd:LI_Lineage>
-               <gmd:statement>
-                  <gco:CharacterString>Sun Jun  1 13:26:03 2014: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0125.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Sat Apr 14 10:44:39 2012: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0123.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Tue Mar 20 18:48:01 2012: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0122.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Thu Jan 13 15:09:48 2011: ncrcat -d time,50000.00,55091.670139 F01.sbe37.historical.1m.nc new.nc
-Tue Jan  4 22:16:58 2011: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0121.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Tue Jan 12 21:23:30 2010: ncrcat -d time,51000.00,54735.00556 F01.sbe37.historical.1m.nc new.nc
-Thu Sep 17 14:57:26 2009: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0120.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Wed May 27 17:29:07 2009: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0119.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Thu Mar 26 00:26:17 2009: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0118.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Thu Oct 30 15:10:19 2008: ncrcat -d time,51000.00,54578.799999 F01.sbe37.historical.1m.nc new.nc
-Fri Sep 26 01:20:19 2008: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0117.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Tue Apr 22 15:47:22 2008: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0116.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Tue Jun  5 19:41:48 2007: ncrcat -d time,50000.00,53993.6597 F01.sbe37.historical.1m.nc new.nc
-Thu May 10 13:53:57 2007: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0114.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Wed Apr 11 18:06:23 2007: /usr/local/bin/ncrcat -d time,0 /data/gomoos/buoy/archive/F01/F01.sbe37.historical.1m.nc /data/gomoos/buoy/archive/F01/F01.sbe37.historical.1m.nc.save000
-Fri Sep 15 11:41:16 2006: /usr/local/bin/ncrcat F01.sbe37.historical.1m.nc F0113.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Wed May 10 02:18:39 2006: /usr/local/nco/bin/ncrcat F01.sbe37.historical.1m.nc F0112.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Thu Feb 23 17:28:12 2006: /usr/local/nco/bin/ncrcat F01.sbe37.historical.1m.nc F0111.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Wed Sep 28 13:21:33 2005: /usr/local/nco/bin/ncrcat F01.sbe37.historical.1m.nc F0110.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Tue May 31 14:31:30 2005: /usr/local/nco/bin/ncrcat F01.sbe37.historical.1m.nc F0109.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Tue Oct  5 14:07:52 2004: /usr/local/nco/bin/ncrcat F01.sbe37.historical.1m.nc F0108.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-Tue Apr 27 12:29:12 2004: /usr/local/nco/bin/ncrcat F01.sbe37.historical.1m.nc F0107.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc.new
-26-Sep-2003 01:03:26:  Provisionally appended realtime data from F0106 deployment starting at julian day number 2452830.875
-Fri Sep 26 00:51:39 2003: ncrcat /data/gomoos/buoy/archive/F01/F01.sbe37.historical.1m.nc /data/gomoos/buoy/archive/F0106/realtime/F0106.sbe37.realtime.1m.nc F01.sbe37.historical.1m.nc
-Thu Jul 31 18:53:16 2003: ncatted -a standard_name,conductivity,c,c,sea_water_electrical_conductivity /data/gomoos/buoy/archive/F01/F01.sbe37.historical.1m.nc
-21-Jul-2003 11:31:58:  Provisionally added F0105 data, starting at julian day number 2452671.79166667
-Mon Jul 21 11:30:12 2003: ncrcat old_F01.sbe37.historical.1m.nc F0105.sbe37.realtime.1m.nc f1.nc
-21-Jul-2003 11:20:35:  Appended F0104 data from F0104.sbe37.raw.1m.nc using nc_add_recs.m.  First new time datum was 2452552.45833333
-27-Jun-2003 13:01:13:  Added ancillary_variables, intent attributes for CF compliance.
-14-Apr-2003 15:16:45:  Added separate flag for sensor_nonfunctional state.
-07-Apr-2003 16:08:39:  Moved temperature back to celsius.
-Wed Feb 26 13:40:59 2003: ncrcat F0102.sbe37.post-recovery.1m.nc F0103.sbe37.post-recovery.1m.nc F01.sbe37.historical.1m.nc</gco:CharacterString>
-               </gmd:statement>
-            </gmd:LI_Lineage>
-         </gmd:lineage>
-      </gmd:DQ_DataQuality>
-   </gmd:dataQualityInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.1. (2014-12-05T19:48:24.803-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.1. (2014-12-06T19:49:12.803-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

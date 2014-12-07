@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2014-12-05</gco:Date>
+      <gco:Date>2014-12-06</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>403550</gco:Integer>
+                  <gco:Integer>466219</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">1126.0</gco:Measure>
+                  <gco:Measure uom="seconds">975.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -499,7 +499,7 @@
                         <gml:TimePeriod gml:id="d235">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2000-07-10T19:00:02Z</gml:beginPosition>
-                           <gml:endPosition>2014-12-05T16:09:59Z</gml:endPosition>
+                           <gml:endPosition>2014-12-06T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -622,7 +622,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d235e94">
                            <gml:beginPosition>2000-07-10T19:00:02Z</gml:beginPosition>
-                           <gml:endPosition>2014-12-05T16:09:59Z</gml:endPosition>
+                           <gml:endPosition>2014-12-06T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -778,7 +778,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d235e93">
                            <gml:beginPosition>2000-07-10T19:00:02Z</gml:beginPosition>
-                           <gml:endPosition>2014-12-05T16:09:59Z</gml:endPosition>
+                           <gml:endPosition>2014-12-06T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1355,7 +1355,9 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Sun Jun  1 13:25:45 2014: /usr/local/bin/ncrcat F01.met.historical.nc F0125.met.realtime.nc F01.met.historical.nc.new
+                  <gco:CharacterString>Fri Dec  5 20:58:19 2014: /usr/local/bin/ncrcat F01.met.historical.nc F0126.met.realtime.nc F01.met.historical.nc.new
+Sat Oct 18 15:47:07 2014: ncrcat -d time,50000.00,53993.65972 F01.met.historical.nc new.nc
+Sun Jun  1 13:25:45 2014: /usr/local/bin/ncrcat F01.met.historical.nc F0125.met.realtime.nc F01.met.historical.nc.new
 Sat Apr 14 10:44:28 2012: /usr/local/bin/ncrcat F01.met.historical.nc F0123.met.realtime.nc F01.met.historical.nc.new
 Tue Mar 20 18:47:50 2012: /usr/local/bin/ncrcat F01.met.historical.nc F0122.met.realtime.nc F01.met.historical.nc.new
 Tue Jan  4 22:16:43 2011: /usr/local/bin/ncrcat F01.met.historical.nc F0121.met.realtime.nc F01.met.historical.nc.new
@@ -1393,7 +1395,7 @@ Tue Jul 22 12:22:41 2003: ncatted -a scale_factor,,d,, old_F01.met.historical.nc
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.1. (2014-12-05T19:48:24.438-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.1. (2014-12-06T19:49:12.346-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
