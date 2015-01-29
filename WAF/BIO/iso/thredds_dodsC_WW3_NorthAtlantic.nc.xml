@@ -80,11 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-<<<<<<< HEAD
-      <gco:Date>2015-01-27</gco:Date>
-=======
-      <gco:Date>2015-01-21</gco:Date>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+      <gco:Date>2015-01-28</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -139,19 +135,11 @@
                <gmd:title>
                   <gco:CharacterString>BIO WW III Latest Forecasts/NorthAtlantic.nc</gco:CharacterString>
                </gmd:title>
-<<<<<<< HEAD
-               <!--source date:2015-01-28T00:30:04Z-->
+               <!--source date:2015-01-29T00:30:03Z-->
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-01-28T00:30:04Z</gco:DateTime>
-=======
-               <!--source date:2015-01-22T00:30:05Z-->
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:DateTime>2015-01-22T00:30:05Z</gco:DateTime>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+                        <gco:DateTime>2015-01-29T00:30:03Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -376,13 +364,8 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d11">
                            <gml:description>seconds</gml:description>
-<<<<<<< HEAD
-                           <gml:beginPosition>2015-01-27T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-01-29T12:00:00Z</gml:endPosition>
-=======
-                           <gml:beginPosition>2015-01-21T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-01-23T12:00:00Z</gml:endPosition>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+                           <gml:beginPosition>2015-01-28T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-01-30T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -398,19 +381,11 @@
                <gmd:title>
                   <gco:CharacterString>BIO WW III Latest Forecasts/NorthAtlantic.nc</gco:CharacterString>
                </gmd:title>
-<<<<<<< HEAD
-               <!--source date:2015-01-28-->
+               <!--source date:2015-01-29-->
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2015-01-28</gco:Date>
-=======
-               <!--source date:2015-01-22-->
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2015-01-22</gco:Date>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+                        <gco:Date>2015-01-29</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -512,13 +487,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d11e36">
-<<<<<<< HEAD
-                           <gml:beginPosition>2015-01-27T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-01-29T12:00:00Z</gml:endPosition>
-=======
-                           <gml:beginPosition>2015-01-21T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-01-23T12:00:00Z</gml:endPosition>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+                           <gml:beginPosition>2015-01-28T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-01-30T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -567,19 +537,11 @@
                <gmd:title>
                   <gco:CharacterString>BIO WW III Latest Forecasts/NorthAtlantic.nc</gco:CharacterString>
                </gmd:title>
-<<<<<<< HEAD
-               <!--source date:2015-01-28-->
+               <!--source date:2015-01-29-->
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2015-01-28</gco:Date>
-=======
-               <!--source date:2015-01-22-->
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2015-01-22</gco:Date>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+                        <gco:Date>2015-01-29</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -681,13 +643,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d11e38">
-<<<<<<< HEAD
-                           <gml:beginPosition>2015-01-27T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-01-29T12:00:00Z</gml:endPosition>
-=======
-                           <gml:beginPosition>2015-01-21T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-01-23T12:00:00Z</gml:endPosition>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+                           <gml:beginPosition>2015-01-28T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-01-30T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -736,19 +693,11 @@
                <gmd:title>
                   <gco:CharacterString>BIO WW III Latest Forecasts/NorthAtlantic.nc</gco:CharacterString>
                </gmd:title>
-<<<<<<< HEAD
-               <!--source date:2015-01-28-->
+               <!--source date:2015-01-29-->
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2015-01-28</gco:Date>
-=======
-               <!--source date:2015-01-22-->
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2015-01-22</gco:Date>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+                        <gco:Date>2015-01-29</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -850,13 +799,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d11e37">
-<<<<<<< HEAD
-                           <gml:beginPosition>2015-01-27T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-01-29T12:00:00Z</gml:endPosition>
-=======
-                           <gml:beginPosition>2015-01-21T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-01-23T12:00:00Z</gml:endPosition>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+                           <gml:beginPosition>2015-01-28T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-01-30T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1031,11 +975,7 @@
                <gmd:descriptor>
                   <gco:CharacterString/>
                </gmd:descriptor>
-<<<<<<< HEAD
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202015-01-27%2012%3A00Z"/>
-=======
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202015-01-21%2012%3A00Z"/>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202015-01-28%2012%3A00Z"/>
             </gmd:MD_Band>
          </gmd:dimension>
       </gmi:MI_CoverageDescription>
@@ -1154,11 +1094,7 @@
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-<<<<<<< HEAD
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.1. (2015-01-27T19:48:22.743-05:00)</gco:CharacterString>
-=======
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.1. (2015-01-21T19:51:45.721-05:00)</gco:CharacterString>
->>>>>>> 6be70a07fab6228e33df7a0fab93b5cc53916f2e
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.1. (2015-01-28T19:47:40.862-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
