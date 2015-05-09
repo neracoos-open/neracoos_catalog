@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-05-07</gco:Date>
+      <gco:Date>2015-05-08</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>170681</gco:Integer>
+                  <gco:Integer>170729</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">2463.0</gco:Measure>
@@ -475,7 +475,7 @@
                         <gml:TimePeriod gml:id="d233">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2002-01-08T16:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2015-05-07T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2015-05-08T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -598,7 +598,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d233e95">
                            <gml:beginPosition>2002-01-08T16:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2015-05-07T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2015-05-08T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -754,7 +754,7 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d233e94">
                            <gml:beginPosition>2002-01-08T16:59:59Z</gml:beginPosition>
-                           <gml:endPosition>2015-05-07T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2015-05-08T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1168,7 +1168,7 @@ Sat Feb 22 18:58:50 2003: ncrcat F0103.accelerometer.raw.nc F0104.accelerometer.
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-05-07T19:47:13.179-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-05-08T19:47:20.467-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
