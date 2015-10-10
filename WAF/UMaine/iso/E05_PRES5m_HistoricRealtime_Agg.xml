@@ -13,7 +13,7 @@
                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>edu.maine:M01</gco:CharacterString>
+      <gco:CharacterString>edu.maine:E0501</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode"
@@ -44,7 +44,7 @@
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                        <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>114519</gco:Integer>
+                  <gco:Integer>3254</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">3922.0</gco:Measure>
+                  <gco:Measure uom="seconds">1204.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -131,7 +131,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: M01 Jordan Basin: M01 AANDERAA Jordan Basin</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: E05 Water Pressure 5m Damariscotta River</gco:CharacterString>
                </gmd:title>
                <gmd:date gco:nilReason="missing"/>
                <gmd:identifier>
@@ -145,7 +145,7 @@
                         </gmd:CI_Citation>
                      </gmd:authority>
                      <gmd:code>
-                        <gco:CharacterString>SOS_DSG_M01_AANDERAA_Historic_Realtime_Agg</gco:CharacterString>
+                        <gco:CharacterString>SOS_DSG_E05_PRES5m_Historic_Realtime_Agg</gco:CharacterString>
                      </gmd:code>
                   </gmd:MD_Identifier>
                </gmd:identifier>
@@ -162,7 +162,7 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -210,9 +210,6 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
-               <gmd:otherCitationDetails>
-                  <gco:CharacterString>processed with MATLAB</gco:CharacterString>
-               </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
@@ -234,7 +231,7 @@
                      <gmd:address>
                         <gmd:CI_Address>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                              <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
@@ -351,34 +348,37 @@
                   <gco:CharacterString>station_name</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>sea_water_velocity</gco:CharacterString>
+                  <gco:CharacterString>sea_water_electrical_conductivity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>current_speed data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>direction_of_sea_water_velocity</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>current_direction data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>eastward_sea_water_velocity</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>current_u data_quality</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>northward_sea_water_velocity</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>current_v data_quality</gco:CharacterString>
+                  <gco:CharacterString>conductivity data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>sea_water_temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>temperature data_quality</gco:CharacterString>
+                  <gco:CharacterString>sea_water_temperature data_quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea_water_pressure</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea_water_pressure data_quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea_water_salinity</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea_water_salinity data_quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea_water_density data_quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>time_created</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>time_modified</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>longitude</gco:CharacterString>
@@ -474,26 +474,26 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-69.56938934326172</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-69.56938934326172</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.84408950805664</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.84408950805664</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d317">
+                        <gml:TimePeriod gml:id="d253">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2001-07-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-09T20:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2015-08-25T15:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-10-09T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -501,10 +501,10 @@
                <gmd:verticalElement>
                   <gmd:EX_VerticalExtent>
                      <gmd:minimumValue>
-                        <gco:Real>-2</gco:Real>
+                        <gco:Real>-5</gco:Real>
                      </gmd:minimumValue>
                      <gmd:maximumValue>
-                        <gco:Real>-2</gco:Real>
+                        <gco:Real>-5</gco:Real>
                      </gmd:maximumValue>
                      <gmd:verticalCRS gco:nilReason="missing"/>
                   </gmd:EX_VerticalExtent>
@@ -518,7 +518,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: M01 Jordan Basin: M01 AANDERAA Jordan Basin</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: E05 Water Pressure 5m Damariscotta River</gco:CharacterString>
                </gmd:title>
                <gmd:date gco:nilReason="missing"/>
                <gmd:citedResponsibleParty>
@@ -534,7 +534,7 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -598,25 +598,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-69.56938934326172</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-69.56938934326172</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.84408950805664</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.84408950805664</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d317e93">
-                           <gml:beginPosition>2001-07-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-09T20:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d253e117">
+                           <gml:beginPosition>2015-08-25T15:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-10-09T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -624,10 +624,10 @@
                <gmd:verticalElement>
                   <gmd:EX_VerticalExtent>
                      <gmd:minimumValue>
-                        <gco:Real>-2</gco:Real>
+                        <gco:Real>-5</gco:Real>
                      </gmd:minimumValue>
                      <gmd:maximumValue>
-                        <gco:Real>-2</gco:Real>
+                        <gco:Real>-5</gco:Real>
                      </gmd:maximumValue>
                      <gmd:verticalCRS gco:nilReason="missing"/>
                   </gmd:EX_VerticalExtent>
@@ -647,7 +647,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/M01/Aanderaa/HistoricRealtime/Agg.ncml</gmd:URL>
+                        <gmd:URL>http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/E05/PRES5m/HistoricRealtime/Agg.ncml</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>OPeNDAP:OPeNDAP</gco:CharacterString>
@@ -674,7 +674,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: M01 Jordan Basin: M01 AANDERAA Jordan Basin</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: E05 Water Pressure 5m Damariscotta River</gco:CharacterString>
                </gmd:title>
                <gmd:date gco:nilReason="missing"/>
                <gmd:citedResponsibleParty>
@@ -690,7 +690,7 @@
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,jevans@umeoce.maine.edu</gco:CharacterString>
+                                    <gco:CharacterString>nealp@maine.edu,ljm@umeoce.maine.edu,bfleming@umeoce.maine.edu</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -754,25 +754,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-69.56938934326172</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-67.87999725341797</gco:Decimal>
+                        <gco:Decimal>-69.56938934326172</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.84408950805664</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.490299224853516</gco:Decimal>
+                        <gco:Decimal>43.84408950805664</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d317e92">
-                           <gml:beginPosition>2001-07-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-09T20:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d253e116">
+                           <gml:beginPosition>2015-08-25T15:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-10-09T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -780,10 +780,10 @@
                <gmd:verticalElement>
                   <gmd:EX_VerticalExtent>
                      <gmd:minimumValue>
-                        <gco:Real>-2</gco:Real>
+                        <gco:Real>-5</gco:Real>
                      </gmd:minimumValue>
                      <gmd:maximumValue>
-                        <gco:Real>-2</gco:Real>
+                        <gco:Real>-5</gco:Real>
                      </gmd:maximumValue>
                      <gmd:verticalCRS gco:nilReason="missing"/>
                   </gmd:EX_VerticalExtent>
@@ -803,7 +803,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://www.neracoos.org/thredds/sos/UMO/DSG/SOS/M01/Aanderaa/HistoricRealtime/Agg.ncml?service=SOS&amp;version=1.0.0&amp;request=GetCapabilities</gmd:URL>
+                        <gmd:URL>http://www.neracoos.org/thredds/sos/UMO/DSG/SOS/E05/PRES5m/HistoricRealtime/Agg.ncml?service=SOS&amp;version=1.0.0&amp;request=GetCapabilities</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>OGC:SOS</gco:CharacterString>
@@ -846,7 +846,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>M01 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>E0501 (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -855,7 +855,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>current_speed</gco:CharacterString>
+                        <gco:CharacterString>conductivity</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -867,9 +867,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Current Speed (sea_water_velocity)</gco:CharacterString>
+                  <gco:CharacterString>Conductivity (sea_water_electrical_conductivity)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#cm%2Fs"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#msiemens%2Fcm"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -877,7 +877,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>current_speed_qc</gco:CharacterString>
+                        <gco:CharacterString>conductivity_qc</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -889,139 +889,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Current Speed QC (current_speed data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>current_direction</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Current Direction (direction_of_sea_water_velocity)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#angular_degrees"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>current_direction_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Current Direction QC (current_direction data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>current_u</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>East Current Velocity Component (eastward_sea_water_velocity)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#cm%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>current_u_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>East Current Velocity Component QC (current_u data_quality)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>current_v</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>North Current Velocity Component (northward_sea_water_velocity)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#cm%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>current_v_qc</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>byte</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>North Current Velocity Component QC (current_v data_quality)</gco:CharacterString>
+                  <gco:CharacterString>Conductivity QC (conductivity data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
@@ -1065,9 +933,185 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Water Temperature QC (temperature data_quality)</gco:CharacterString>
+                  <gco:CharacterString>Water Temperature QC (sea_water_temperature data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>pressure</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Water Pressure (sea_water_pressure)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#decibars"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>pressure_qc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>byte</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Water Pressure QC (sea_water_pressure data_quality)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>salinity</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Salinity (sea_water_salinity)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#psu"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>salinity_qc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>byte</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Salinity QC (sea_water_salinity data_quality)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>sigma_t</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Sigma T</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#kg%2Fm%5E3"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>sigma_t_qc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>byte</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>SigmaT QC (sea_water_density data_quality)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>time_created</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>double</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Time Record Created (time_created)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>time_modified</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>double</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Time Record Last Modified (time_modified)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1223,7 +1267,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/M01/Aanderaa/HistoricRealtime/Agg.ncml.html</gmd:URL>
+                              <gmd:URL>http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/E05/PRES5m/HistoricRealtime/Agg.ncml.html</gmd:URL>
                            </gmd:linkage>
                            <gmd:protocol>
                               <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -1247,7 +1291,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/M01/Aanderaa/HistoricRealtime/Agg.ncml</gmd:URL>
+                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://www.neracoos.org/thredds/dodsC/UMO/DSG/SOS/E05/PRES5m/HistoricRealtime/Agg.ncml</gmd:URL>
                            </gmd:linkage>
                            <gmd:protocol>
                               <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -1270,11 +1314,32 @@
          </gmd:distributor>
       </gmd:MD_Distribution>
    </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>2015-08-26 15:20:57:  Modified [lon,lat] to [-69.569388,43.844091].
+Tue Aug 25 23:29:35 2015: /usr/local/bin/ncrcat -d time,57259.6145833335,57279.6145833335 E0501.sbe16.pres.realtime.5m.nc E0501.sbe16.pres.realtime.5m.nc.new
+</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-10-09T19:47:36.925-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-10-09T19:47:24.753-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
