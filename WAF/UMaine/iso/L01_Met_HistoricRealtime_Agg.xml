@@ -37,7 +37,7 @@
             <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+            <gco:CharacterString>NERACOOS</gco:CharacterString>
          </gmd:organisationName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-10-22</gco:Date>
+      <gco:Date>2015-10-23</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -155,7 +155,7 @@
                         <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+                        <gco:CharacterString>NERACOOS</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
@@ -227,7 +227,7 @@
                   <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS</gco:CharacterString>
                </gmd:organisationName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
@@ -533,7 +533,7 @@
                         <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+                        <gco:CharacterString>NERACOOS</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
@@ -620,7 +620,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d329e103">
+                        <gml:TimePeriod gml:id="d329e106">
                            <gml:beginPosition>2002-01-06T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2008-11-16T18:10:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -689,7 +689,7 @@
                         <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+                        <gco:CharacterString>NERACOOS</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
@@ -776,7 +776,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d329e102">
+                        <gml:TimePeriod gml:id="d329e105">
                            <gml:beginPosition>2002-01-06T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2008-11-16T18:10:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1384,7 +1384,7 @@ Thu Oct  9 12:39:07 2003: ncrcat /data/gomoos/buoy/archive/L01/L01.met.historica
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-10-22T19:47:48.477-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-10-23T19:50:59.451-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

@@ -37,7 +37,7 @@
             <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+            <gco:CharacterString>NERACOOS</gco:CharacterString>
          </gmd:organisationName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-10-22</gco:Date>
+      <gco:Date>2015-10-23</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>3380</gco:Integer>
+                  <gco:Integer>3404</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">12943.0</gco:Measure>
+                  <gco:Measure uom="seconds">12877.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -155,7 +155,7 @@
                         <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+                        <gco:CharacterString>NERACOOS</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
@@ -224,7 +224,7 @@
                   <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS</gco:CharacterString>
                </gmd:organisationName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
@@ -508,7 +508,7 @@
                         <gml:TimePeriod gml:id="d231">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2014-06-03T18:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-22T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2015-10-23T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -542,7 +542,7 @@
                         <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+                        <gco:CharacterString>NERACOOS</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
@@ -629,9 +629,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d231e116">
+                        <gml:TimePeriod gml:id="d231e119">
                            <gml:beginPosition>2014-06-03T18:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-22T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2015-10-23T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -698,7 +698,7 @@
                         <gco:CharacterString>Neal Pettigrew</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>Department of Physical Oceanography, School of Marine Sciences, University of Maine</gco:CharacterString>
+                        <gco:CharacterString>NERACOOS</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
@@ -785,9 +785,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d231e115">
+                        <gml:TimePeriod gml:id="d231e118">
                            <gml:beginPosition>2014-06-03T18:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-22T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2015-10-23T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1421,7 +1421,7 @@
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-10-22T19:47:29.543-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-10-23T19:50:38.256-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
