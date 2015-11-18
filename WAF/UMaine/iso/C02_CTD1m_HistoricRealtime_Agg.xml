@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-11-16</gco:Date>
+      <gco:Date>2015-11-17</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -484,7 +484,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d241">
+                        <gml:TimePeriod gml:id="d239">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2002-03-26T18:00:00Z</gml:beginPosition>
                            <gml:endPosition>2009-03-23T11:15:00Z</gml:endPosition>
@@ -608,7 +608,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d241e108">
+                        <gml:TimePeriod gml:id="d239e108">
                            <gml:beginPosition>2002-03-26T18:00:00Z</gml:beginPosition>
                            <gml:endPosition>2009-03-23T11:15:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -764,7 +764,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d241e107">
+                        <gml:TimePeriod gml:id="d239e107">
                            <gml:beginPosition>2002-03-26T18:00:00Z</gml:beginPosition>
                            <gml:endPosition>2009-03-23T11:15:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -840,7 +840,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>C02 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>C02 Casco Bay Sbe37 1m (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1267,7 +1267,7 @@ Mon May 19 20:25:07 2003: ncrcat /data/gomoos/buoy/C02/C02.sbe37.historical.1m.n
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-16T19:49:02.212-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-17T19:47:37.372-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

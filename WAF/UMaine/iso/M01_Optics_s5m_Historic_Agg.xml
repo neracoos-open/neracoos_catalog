@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-11-16</gco:Date>
+      <gco:Date>2015-11-17</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -469,7 +469,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d377">
+                        <gml:TimePeriod gml:id="d373">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2001-07-11T22:00:00Z</gml:beginPosition>
                            <gml:endPosition>2002-10-11T15:00:00Z</gml:endPosition>
@@ -593,7 +593,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d377e108">
+                        <gml:TimePeriod gml:id="d373e108">
                            <gml:beginPosition>2001-07-11T22:00:00Z</gml:beginPosition>
                            <gml:endPosition>2002-10-11T15:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -749,7 +749,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d377e107">
+                        <gml:TimePeriod gml:id="d373e107">
                            <gml:beginPosition>2001-07-11T22:00:00Z</gml:beginPosition>
                            <gml:endPosition>2002-10-11T15:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -825,7 +825,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>M01 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>M01 Jordan Basin Optics_s 5m (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1163,7 +1163,7 @@ Tue Jul 29 17:25:31 2003: ncatted -a flag_values,chlorophyll_qc,o,b,0,1,19,25 /d
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-16T19:49:26.959-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-17T19:48:03.253-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

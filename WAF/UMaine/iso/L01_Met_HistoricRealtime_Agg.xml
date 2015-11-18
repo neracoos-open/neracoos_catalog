@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-11-16</gco:Date>
+      <gco:Date>2015-11-17</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -496,7 +496,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d325">
+                        <gml:TimePeriod gml:id="d323">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2002-01-06T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2008-11-16T18:10:00Z</gml:endPosition>
@@ -620,7 +620,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d325e106">
+                        <gml:TimePeriod gml:id="d323e106">
                            <gml:beginPosition>2002-01-06T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2008-11-16T18:10:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -776,7 +776,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d325e105">
+                        <gml:TimePeriod gml:id="d323e105">
                            <gml:beginPosition>2002-01-06T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2008-11-16T18:10:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -852,7 +852,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>L01 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>L01 Scotian Shelf Met (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1384,7 +1384,7 @@ Thu Oct  9 12:39:07 2003: ncrcat /data/gomoos/buoy/archive/L01/L01.met.historica
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-16T19:49:17.439-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-17T19:47:52.945-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

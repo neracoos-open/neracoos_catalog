@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-11-16</gco:Date>
+      <gco:Date>2015-11-17</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -466,7 +466,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d275">
+                        <gml:TimePeriod gml:id="d273">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2002-07-25T22:00:00Z</gml:beginPosition>
                            <gml:endPosition>2006-09-12T09:59:59Z</gml:endPosition>
@@ -590,7 +590,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d275e107">
+                        <gml:TimePeriod gml:id="d273e107">
                            <gml:beginPosition>2002-07-25T22:00:00Z</gml:beginPosition>
                            <gml:endPosition>2006-09-12T09:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -746,7 +746,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d275e106">
+                        <gml:TimePeriod gml:id="d273e106">
                            <gml:beginPosition>2002-07-25T22:00:00Z</gml:beginPosition>
                            <gml:endPosition>2006-09-12T09:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -822,7 +822,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>E01 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>E01 Central Maine Shelf Optics_a (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1145,7 +1145,7 @@ Wed Oct 29 18:18:51 2003: ncrcat /data/gomoos/buoy/archive/E01/E01.optics_a.hist
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-16T19:49:08.996-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-17T19:47:43.735-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
