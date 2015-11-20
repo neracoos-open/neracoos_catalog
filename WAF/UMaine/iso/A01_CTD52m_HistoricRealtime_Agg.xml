@@ -13,7 +13,7 @@
                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>edu.maine:A0133</gco:CharacterString>
+      <gco:CharacterString>edu.maine:A01</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode"
@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-10-27</gco:Date>
+      <gco:Date>2015-11-19</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>8772</gco:Integer>
+                  <gco:Integer>4019</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">3600.0</gco:Measure>
+                  <gco:Measure uom="seconds">3623.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -131,7 +131,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: A0134 Western Maine Shelf: A0134 CTD52m Massachusetts Bay</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: A01 Western Maine Shelf: A01 CTD52m Massachusetts Bay</gco:CharacterString>
                </gmd:title>
                <gmd:date gco:nilReason="missing"/>
                <gmd:identifier>
@@ -378,6 +378,18 @@
                   <gco:CharacterString>sea_water_temperature data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
+                  <gco:CharacterString>chlorophyll_concentration_in_sea_water</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>chlorophyll data_quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>turbidity_of_sea_water</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>turbidity data_quality</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
                   <gco:CharacterString>sea_water_salinity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
@@ -489,26 +501,26 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-70.56549835205078</gco:Decimal>
+                        <gco:Decimal>-70.56534576416016</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-70.56549835205078</gco:Decimal>
+                        <gco:Decimal>-70.56534576416016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.522056579589844</gco:Decimal>
+                        <gco:Decimal>42.522796630859375</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.522056579589844</gco:Decimal>
+                        <gco:Decimal>42.522796630859375</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d213">
+                        <gml:TimePeriod gml:id="d211">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2014-10-26T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-26T12:59:59Z</gml:endPosition>
+                           <gml:beginPosition>2015-06-04T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-11-20T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -516,10 +528,10 @@
                <gmd:verticalElement>
                   <gmd:EX_VerticalExtent>
                      <gmd:minimumValue>
-                        <gco:Real>-52</gco:Real>
+                        <gco:Real>-50</gco:Real>
                      </gmd:minimumValue>
                      <gmd:maximumValue>
-                        <gco:Real>-52</gco:Real>
+                        <gco:Real>-50</gco:Real>
                      </gmd:maximumValue>
                      <gmd:verticalCRS gco:nilReason="missing"/>
                   </gmd:EX_VerticalExtent>
@@ -533,7 +545,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: A0134 Western Maine Shelf: A0134 CTD52m Massachusetts Bay</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: A01 Western Maine Shelf: A01 CTD52m Massachusetts Bay</gco:CharacterString>
                </gmd:title>
                <gmd:date gco:nilReason="missing"/>
                <gmd:citedResponsibleParty>
@@ -613,25 +625,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-70.56549835205078</gco:Decimal>
+                        <gco:Decimal>-70.56534576416016</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-70.56549835205078</gco:Decimal>
+                        <gco:Decimal>-70.56534576416016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.522056579589844</gco:Decimal>
+                        <gco:Decimal>42.522796630859375</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.522056579589844</gco:Decimal>
+                        <gco:Decimal>42.522796630859375</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d213e124">
-                           <gml:beginPosition>2014-10-26T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-26T12:59:59Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d211e127">
+                           <gml:beginPosition>2015-06-04T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-11-20T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -639,10 +651,10 @@
                <gmd:verticalElement>
                   <gmd:EX_VerticalExtent>
                      <gmd:minimumValue>
-                        <gco:Real>-52</gco:Real>
+                        <gco:Real>-50</gco:Real>
                      </gmd:minimumValue>
                      <gmd:maximumValue>
-                        <gco:Real>-52</gco:Real>
+                        <gco:Real>-50</gco:Real>
                      </gmd:maximumValue>
                      <gmd:verticalCRS gco:nilReason="missing"/>
                   </gmd:EX_VerticalExtent>
@@ -689,7 +701,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: A0134 Western Maine Shelf: A0134 CTD52m Massachusetts Bay</gco:CharacterString>
+                  <gco:CharacterString>NERACOOS Gulf of Maine Ocean Array: Realtime Buoy Observations: A01 Western Maine Shelf: A01 CTD52m Massachusetts Bay</gco:CharacterString>
                </gmd:title>
                <gmd:date gco:nilReason="missing"/>
                <gmd:citedResponsibleParty>
@@ -769,25 +781,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-70.56549835205078</gco:Decimal>
+                        <gco:Decimal>-70.56534576416016</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-70.56549835205078</gco:Decimal>
+                        <gco:Decimal>-70.56534576416016</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.522056579589844</gco:Decimal>
+                        <gco:Decimal>42.522796630859375</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.522056579589844</gco:Decimal>
+                        <gco:Decimal>42.522796630859375</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d213e123">
-                           <gml:beginPosition>2014-10-26T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-10-26T12:59:59Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d211e126">
+                           <gml:beginPosition>2015-06-04T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-11-20T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -795,10 +807,10 @@
                <gmd:verticalElement>
                   <gmd:EX_VerticalExtent>
                      <gmd:minimumValue>
-                        <gco:Real>-52</gco:Real>
+                        <gco:Real>-50</gco:Real>
                      </gmd:minimumValue>
                      <gmd:maximumValue>
-                        <gco:Real>-52</gco:Real>
+                        <gco:Real>-50</gco:Real>
                      </gmd:maximumValue>
                      <gmd:verticalCRS gco:nilReason="missing"/>
                   </gmd:EX_VerticalExtent>
@@ -861,7 +873,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>A0133 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>A01 Massachusetts Bay Sbe16 Trans4 flntus (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1081,6 +1093,94 @@
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
                   <gco:CharacterString>Water Temperature QC (sea_water_temperature data_quality)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>chlorophyll</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Chlorophyll (chlorophyll_concentration_in_sea_water)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#micrograms%2Fliter"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>chlorophyll_qc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>byte</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Chlorophyll Quality (chlorophyll data_quality)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>turbidity</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Turbidity (turbidity_of_sea_water)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#ntus"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>turbidity_qc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>byte</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Turbidity Quality (turbidity data_quality)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
@@ -1430,11 +1530,11 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>2015-06-01 18:04:09:  Modified [lon,lat] to [-70.565498,42.522055].
-2015-01-28 17:38:16:  Modified [lon,lat] to [-70.565744,42.521712].
-Sun Oct 26 02:45:22 2014: ncrcat -d time,51000.00,56956.069 A0133.sbe16.trans.realtime.nc new.nc
-2014-10-26 01:25:35:  Modified [lon,lat] to [-70.564873,42.523127].
-Sun Oct 26 00:47:19 2014: /usr/local/bin/ncrcat -d time,56955.98056,56958.00 A0133.sbe16.trans.realtime.nc A0133.sbe16.trans.realtime.nc.new
+                  <gco:CharacterString>Mon Jun  8 22:09:36 2015: /usr/local/bin/ncrcat -d time,57177.4618055555,57197.4618055555 A0134.sbe16.trans4.flntus.realtime.nc A0134.sbe16.trans4.flntus.realtime.nc.new
+Mon Jun  8 21:37:00 2015: /usr/local/bin/ncrcat -d time,0 /data/gomoos/buoy/archive/A0134/realtime/A0134.sbe16.trans4.flntus.realtime.nc /data/gomoos/buoy/archive/A0134/realtime/A0134.sbe16.trans4.flntus.realtime.nc.save000
+2015-06-05 19:50:49:  Modified [lon,lat] to [-70.565347,42.522797].
+Thu Jun  4 12:41:12 2015: /usr/local/bin/ncrcat -d time,57177.46180,57178.99 A0134.sbe16.trans4.flntus.realtime.nc A0134.sbe16.trans4.flntus.realtime.nc.new
+2015-06-04 12:17:00:  Modified [lon,lat] to [-70.565331,42.522701].
 </gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
@@ -1445,7 +1545,7 @@ Sun Oct 26 00:47:19 2014: /usr/local/bin/ncrcat -d time,56955.98056,56958.00 A01
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-10-27T19:47:22.48-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-19T19:47:26.955-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
