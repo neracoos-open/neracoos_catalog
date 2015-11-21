@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-11-19</gco:Date>
+      <gco:Date>2015-11-20</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -138,7 +138,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-11-20T00:30:21Z</gco:DateTime>
+                        <gco:DateTime>2015-11-21T00:30:32Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -363,8 +363,8 @@
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d7">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2015-11-18T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-11-20T12:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2015-11-20T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-11-22T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -383,7 +383,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-11-20T00:30:21Z</gco:DateTime>
+                        <gco:DateTime>2015-11-21T00:30:32Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -485,8 +485,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d7e36">
-                           <gml:beginPosition>2015-11-18T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-11-20T12:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2015-11-20T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-11-22T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -538,7 +538,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-11-20T00:30:21Z</gco:DateTime>
+                        <gco:DateTime>2015-11-21T00:30:32Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -640,8 +640,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d7e38">
-                           <gml:beginPosition>2015-11-18T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-11-20T12:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2015-11-20T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-11-22T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -693,7 +693,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-11-20T00:30:21Z</gco:DateTime>
+                        <gco:DateTime>2015-11-21T00:30:32Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
@@ -795,8 +795,8 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimePeriod gml:id="d7e37">
-                           <gml:beginPosition>2015-11-18T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-11-20T12:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2015-11-20T12:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2015-11-22T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -965,7 +965,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor gco:nilReason="missing"/>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202015-11-18%2012%3A00Z"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202015-11-20%2012%3A00Z"/>
             </gmd:MD_Band>
          </gmd:dimension>
       </gmi:MI_CoverageDescription>
@@ -1084,7 +1084,7 @@
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-19T19:48:12.89-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-20T19:49:37.648-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
