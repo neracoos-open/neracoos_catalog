@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-12-22</gco:Date>
+      <gco:Date>2015-12-23</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -582,7 +582,7 @@
             <gco:CharacterString>Ocean observation data from the Northeastern Regional Association of Coastal &amp;amp; Ocean Observing Systems (NERACOOS). The NERACOOS region includes the northeast United States and Canadian Maritime provinces, as part of the United States Integrated Ocean Observing System (IOOS).  These data are served by Unidata's Thematic Realtime Environmental Distributed Data Services (THREDDS) Data Server (TDS) in a variety of interoperable data services and output formats.</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
-            <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
+            <gco:LocalName>OPeNDAP:OPeNDAP</gco:LocalName>
          </srv:serviceType>
          <srv:extent>
             <gmd:EX_Extent>
@@ -738,7 +738,7 @@
             <gco:CharacterString>Ocean observation data from the Northeastern Regional Association of Coastal &amp;amp; Ocean Observing Systems (NERACOOS). The NERACOOS region includes the northeast United States and Canadian Maritime provinces, as part of the United States Integrated Ocean Observing System (IOOS).  These data are served by Unidata's Thematic Realtime Environmental Distributed Data Services (THREDDS) Data Server (TDS) in a variety of interoperable data services and output formats.</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
-            <gco:LocalName>Open Geospatial Consortium Sensor Observation Service (SOS)</gco:LocalName>
+            <gco:LocalName>OGC:SOS</gco:LocalName>
          </srv:serviceType>
          <srv:extent>
             <gmd:EX_Extent>
@@ -1267,7 +1267,7 @@ Created on Wed Apr 11 17:56:05 EDT 2001 by jevans
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-12-22T19:49:17.916-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-12-23T19:47:40.437-05:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
