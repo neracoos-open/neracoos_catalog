@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-04-03</gco:Date>
+      <gco:Date>2016-04-04</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -469,7 +469,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d191">
+                        <gml:TimePeriod gml:id="d233">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2002-04-01T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2007-09-23T18:59:59Z</gml:endPosition>
@@ -593,7 +593,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d191e108">
+                        <gml:TimePeriod gml:id="d233e108">
                            <gml:beginPosition>2002-04-01T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2007-09-23T18:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -749,7 +749,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d191e107">
+                        <gml:TimePeriod gml:id="d233e107">
                            <gml:beginPosition>2002-04-01T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2007-09-23T18:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1167,7 +1167,7 @@ Wed Jul 23 12:12:03 2003: ncrcat -d time,2452550.83333332,2452755.79166668 B0103
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-04-03T19:50:45.664-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-04-04T19:47:25.525-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
