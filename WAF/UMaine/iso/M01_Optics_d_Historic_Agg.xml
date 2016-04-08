@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-04-04</gco:Date>
+      <gco:Date>2016-04-07</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -469,7 +469,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d381">
+                        <gml:TimePeriod gml:id="d385">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2004-10-04T15:59:59Z</gml:beginPosition>
                            <gml:endPosition>2006-07-17T20:00:00Z</gml:endPosition>
@@ -593,7 +593,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d381e106">
+                        <gml:TimePeriod gml:id="d385e106">
                            <gml:beginPosition>2004-10-04T15:59:59Z</gml:beginPosition>
                            <gml:endPosition>2006-07-17T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -749,7 +749,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d381e105">
+                        <gml:TimePeriod gml:id="d385e105">
                            <gml:beginPosition>2004-10-04T15:59:59Z</gml:beginPosition>
                            <gml:endPosition>2006-07-17T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1142,7 +1142,7 @@ DH4 firmware problem of OCR rollover on averaging made realtime OCR504 observati
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-04-04T19:47:52.634-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-04-07T19:48:03.905-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

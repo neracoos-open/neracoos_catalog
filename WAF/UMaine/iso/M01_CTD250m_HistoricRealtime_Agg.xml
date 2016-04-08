@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2015-11-16</gco:Date>
+      <gco:Date>2016-04-07</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>125765</gco:Integer>
+                  <gco:Integer>125927</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">2634.0</gco:Measure>
+                  <gco:Measure uom="seconds">2642.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -484,10 +484,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d371">
+                        <gml:TimePeriod gml:id="d375">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2003-07-09T04:34:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-01-07T14:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-01-23T08:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -582,7 +582,7 @@
             <gco:CharacterString>Ocean observation data from the Northeastern Regional Association of Coastal &amp;amp; Ocean Observing Systems (NERACOOS). The NERACOOS region includes the northeast United States and Canadian Maritime provinces, as part of the United States Integrated Ocean Observing System (IOOS).  These data are served by Unidata's Thematic Realtime Environmental Distributed Data Services (THREDDS) Data Server (TDS) in a variety of interoperable data services and output formats.</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
-            <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
+            <gco:LocalName>OPeNDAP:OPeNDAP</gco:LocalName>
          </srv:serviceType>
          <srv:extent>
             <gmd:EX_Extent>
@@ -608,9 +608,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d371e113">
+                        <gml:TimePeriod gml:id="d375e113">
                            <gml:beginPosition>2003-07-09T04:34:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-01-07T14:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-01-23T08:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -738,7 +738,7 @@
             <gco:CharacterString>Ocean observation data from the Northeastern Regional Association of Coastal &amp;amp; Ocean Observing Systems (NERACOOS). The NERACOOS region includes the northeast United States and Canadian Maritime provinces, as part of the United States Integrated Ocean Observing System (IOOS).  These data are served by Unidata's Thematic Realtime Environmental Distributed Data Services (THREDDS) Data Server (TDS) in a variety of interoperable data services and output formats.</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
-            <gco:LocalName>Open Geospatial Consortium Sensor Observation Service (SOS)</gco:LocalName>
+            <gco:LocalName>OGC:SOS</gco:LocalName>
          </srv:serviceType>
          <srv:extent>
             <gmd:EX_Extent>
@@ -764,9 +764,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d371e112">
+                        <gml:TimePeriod gml:id="d375e112">
                            <gml:beginPosition>2003-07-09T04:34:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-01-07T14:29:59Z</gml:endPosition>
+                           <gml:endPosition>2014-01-23T08:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -840,7 +840,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>M01 (station_name)</gco:CharacterString>
+                  <gco:CharacterString>M01 Jordan Basin Sbe37 250m (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1254,7 +1254,7 @@ Thu Jul 31 18:53:51 2003: ncatted -a standard_name,conductivity,c,c,sea_water_el
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2015-11-16T19:49:25.972-05:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-04-07T19:48:01.799-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
