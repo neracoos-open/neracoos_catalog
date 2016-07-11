@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-07-09</gco:Date>
+      <gco:Date>2016-07-10</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>210120</gco:Integer>
+                  <gco:Integer>210167</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">2145.0</gco:Measure>
@@ -475,7 +475,7 @@
                         <gml:TimePeriod gml:id="d221">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2002-03-28T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -596,9 +596,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d221e105">
+                        <gml:TimePeriod gml:id="d221e106">
                            <gml:beginPosition>2002-03-28T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -752,9 +752,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d221e104">
+                        <gml:TimePeriod gml:id="d221e105">
                            <gml:beginPosition>2002-03-28T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1120,11 +1120,58 @@
          </gmd:distributor>
       </gmd:MD_Distribution>
    </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>Sat Jul  9 13:51:13 2016: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0127.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Thu Jun  4 17:29:07 2015: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0126.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Tue Jun  3 13:26:52 2014: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0125.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Thu Jun 20 13:50:50 2013: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0124.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Fri Oct 26 15:46:50 2012: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0123.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Sun Apr 15 12:07:03 2012: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0122.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Fri Oct  7 21:08:09 2011: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0121.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Thu Oct 14 05:11:59 2010: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0120.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Wed Sep 23 23:22:33 2009: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0118.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Sat Mar 21 18:33:52 2009: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0117.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Thu Oct  2 13:25:05 2008: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0116.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Wed Apr 16 16:51:53 2008: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0115.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Wed Oct 24 16:57:51 2007: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0114.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Wed Apr 11 17:06:37 2007: /usr/local/bin/ncrcat -d time,0 /data/gomoos/buoy/archive/B01/B01.accelerometer.historical.nc /data/gomoos/buoy/archive/B01/B01.accelerometer.historical.nc.save000
+Fri Mar 23 21:39:41 2007: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0113.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Fri Dec 15 05:48:51 2006: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0112.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Wed Sep 13 12:45:56 2006: /usr/local/bin/ncrcat B01.accelerometer.historical.nc B0111.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Wed Apr 12 16:19:15 2006: /usr/local/nco/bin/ncrcat B01.accelerometer.historical.nc B0110.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Sat Oct 22 17:37:08 2005: /usr/local/nco/bin/ncrcat B01.accelerometer.historical.nc B0109.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Mon May  2 19:53:11 2005: /usr/local/nco/bin/ncrcat B01.accelerometer.historical.nc B0108.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Fri Jan  7 23:07:08 2005: /usr/local/nco/bin/ncrcat B01.accelerometer.historical.nc B0107.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Thu Oct  7 19:38:28 2004: /usr/local/nco/bin/ncrcat B01.accelerometer.historical.nc B0106.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Tue Mar 23 20:27:10 2004: /usr/local/nco/bin/ncrcat B01.accelerometer.historical.nc B0105.accelerometer.realtime.nc B01.accelerometer.historical.nc.new
+Sat Oct 11 01:10:28 2003: ncrcat /data/gomoos/buoy/archive/B01/B01.accelerometer.historical.nc /data/gomoos/buoy/archive/B0104/realtime/B0104.accelerometer.realtime.nc B01.accelerometer.historical.nc
+27-Jun-2003 13:01:54:  Added ancillary_variables, intent attributes for CF compliance.
+Wed May  7 15:33:34 2003: ncrcat /data/gomoos/buoy/B01/B01.accelerometer.historical.nc /data/gomoos/buoy/B0103/B0103.accelerometer.realtime.nc B01.accelerometer.historical.nc
+27-Mar-2003 17:13:19:  Removed sensor_depth, is_dead attributes.  Changed valid range of qc variables from [0-127]b to [-127 127]s.
+Sat Feb 22 20:01:15 2003: ncrcat -v significant_wave_height,significant_wave_height_qc,dominant_wave_period,dominant_wave_period_qc B01.accelerometer.historical.nc b.nc
+21-Feb-2003 21:23:22:  Created from B0102.accelerometer.raw.nc.  No accelerometer was present on B0101 deployment.</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-09T19:50:01.802-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-10T19:49:48.914-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

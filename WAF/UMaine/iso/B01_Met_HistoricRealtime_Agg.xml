@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-07-09</gco:Date>
+      <gco:Date>2016-07-10</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>521402</gco:Integer>
+                  <gco:Integer>521546</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">907.0</gco:Measure>
@@ -499,7 +499,7 @@
                         <gml:TimePeriod gml:id="d223">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2001-07-09T12:51:59Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -620,9 +620,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d223e105">
+                        <gml:TimePeriod gml:id="d223e106">
                            <gml:beginPosition>2001-07-09T12:51:59Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -776,9 +776,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d223e104">
+                        <gml:TimePeriod gml:id="d223e105">
                            <gml:beginPosition>2001-07-09T12:51:59Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1342,11 +1342,72 @@
          </gmd:distributor>
       </gmd:MD_Distribution>
    </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>Sat Jul  9 16:44:04 2016: ncrcat -d time,51000.00,57177.870139 B01.met.historical.nc new.nc
+Sat Jul  9 13:52:15 2016: /usr/local/bin/ncrcat B01.met.historical.nc B0127.met.realtime.nc B01.met.historical.nc.new
+Sat Oct 18 14:45:14 2014: ncrcat -d time,50000.00,54183.052083 B01.met.historical.nc new.nc
+Tue Jun  3 13:27:27 2014: /usr/local/bin/ncrcat B01.met.historical.nc B0125.met.realtime.nc B01.met.historical.nc.new
+Thu Jun 20 13:51:06 2013: /usr/local/bin/ncrcat B01.met.historical.nc B0124.met.realtime.nc B01.met.historical.nc.new
+Fri Oct 26 15:47:06 2012: /usr/local/bin/ncrcat B01.met.historical.nc B0123.met.realtime.nc B01.met.historical.nc.new
+Sun Apr 15 12:07:21 2012: /usr/local/bin/ncrcat B01.met.historical.nc B0122.met.realtime.nc B01.met.historical.nc.new
+Fri Oct  7 21:08:37 2011: /usr/local/bin/ncrcat B01.met.historical.nc B0121.met.realtime.nc B01.met.historical.nc.new
+Thu Oct 14 05:12:13 2010: /usr/local/bin/ncrcat B01.met.historical.nc B0120.met.realtime.nc B01.met.historical.nc.new
+Wed Sep 23 23:22:45 2009: /usr/local/bin/ncrcat B01.met.historical.nc B0118.met.realtime.nc B01.met.historical.nc.new
+Sat Mar 21 18:34:16 2009: /usr/local/bin/ncrcat B01.met.historical.nc B0117.met.realtime.nc B01.met.historical.nc.new
+Thu Oct  2 13:25:31 2008: /usr/local/bin/ncrcat B01.met.historical.nc B0116.met.realtime.nc B01.met.historical.nc.new
+Wed Apr 16 16:52:13 2008: /usr/local/bin/ncrcat B01.met.historical.nc B0115.met.realtime.nc B01.met.historical.nc.new
+Wed Oct 24 16:58:10 2007: /usr/local/bin/ncrcat B01.met.historical.nc B0114.met.realtime.nc B01.met.historical.nc.new
+Wed Apr  4 17:05:57 2007: ncrcat -d time,41000.00,53991.5 B01.met.historical.nc new.nc
+Fri Mar 23 21:39:59 2007: /usr/local/bin/ncrcat B01.met.historical.nc B0113.met.realtime.nc B01.met.historical.nc.new
+Fri Dec 15 05:49:22 2006: /usr/local/bin/ncrcat B01.met.historical.nc B0112.met.realtime.nc B01.met.historical.nc.new
+Wed Nov  8 16:44:50 2006: ncks -a B01.met.historical.nc new.nc
+Wed Sep 13 12:46:18 2006: /usr/local/bin/ncrcat B01.met.historical.nc B0111.met.realtime.nc B01.met.historical.nc.new
+Wed Apr 12 16:19:44 2006: /usr/local/nco/bin/ncrcat B01.met.historical.nc B0110.met.realtime.nc B01.met.historical.nc.new
+Sat Oct 22 17:37:46 2005: /usr/local/nco/bin/ncrcat B01.met.historical.nc B0109.met.realtime.nc B01.met.historical.nc.new
+Mon May  2 19:53:26 2005: /usr/local/nco/bin/ncrcat B01.met.historical.nc B0108.met.realtime.nc B01.met.historical.nc.new
+Fri Jan  7 23:07:24 2005: /usr/local/nco/bin/ncrcat B01.met.historical.nc B0107.met.realtime.nc B01.met.historical.nc.new
+Fri Nov 19 23:48:07 2004: ncks -A B01.met.historical.nc B01.met.historical_newbaro.nc
+Thu Oct  7 19:38:42 2004: /usr/local/nco/bin/ncrcat B01.met.historical.nc B0106.met.realtime.nc B01.met.historical.nc.new
+Tue Mar 23 20:27:46 2004: /usr/local/nco/bin/ncrcat B01.met.historical.nc B0105.met.realtime.nc B01.met.historical.nc.new
+Sat Oct 11 01:10:28 2003: ncrcat /data/gomoos/buoy/archive/B01/B01.met.historical.nc /data/gomoos/buoy/archive/B0104/realtime/B0104.met.realtime.nc B01.met.historical.nc
+27-Jun-2003 13:01:58:  Added ancillary_variables, intent attributes for CF compliance.
+06-May-2003 19:56:37:  Winds failed at 2003-04-17 04:00:00 for B0103 series.
+06-May-2003 19:56:24:  Added data from B0103.met.realtime.nc to historical series.
+Tue May  6 19:55:54 2003: ncrcat /data/gomoos/buoy/B01/B01.met.historical.nc /data/gomoos/buoy/B0103/B0103.met.realtime.nc a.nc
+07-Apr-2003 16:03:15:  Moved air_temperature back to celsius.
+27-Mar-2003 17:33:31:  Removed compass_depth dimension.  Removed compass_depth, wind_min, wind_speed_sc, wind_speed_ve, wind_direction_uv, wind_direction_ve, wind_direction stddevs, compass, compass_stddev, visibility_counts, min_visibility, max_visibility.  Removed grib_code, sensor_depth, is_dead attributes.  Changed qc valid ranges from [0-127]b to [-127 127]s.  Changed units to match CF standard, requiring accompanying valid range changes.
+21-Feb-2003 21:14:08:  Created from B0101.met.raw.nc, B0102.met.raw.nc
+02-Oct-2002 17:00:00:  Recovered B0102.
+19-Apr-2002 16:30:00:  Wind sensor replaced.
+13-Apr-2002 17:00:00:  Proper magnetic variation retroactively applied to all wind directions
+11-Apr-2002 03:00:00:  All wind variables read zero, sensor failure
+10-Apr-2002 17:00:00:  Wind Direction corrected by adding 90 deg offset (sensor not mounted correctly on mast)
+28-Mar-2002 14:45:00:  Deployed B0102.
+28-Mar-2002 14:45:00:  Recovered B0101.
+09-Jul-2001 12:00:00:  Deployed B0101.
+</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-09T19:50:02.559-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-10T19:49:49.324-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

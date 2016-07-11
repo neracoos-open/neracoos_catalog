@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-07-09</gco:Date>
+      <gco:Date>2016-07-10</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -608,7 +608,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d275e106">
+                        <gml:TimePeriod gml:id="d275e107">
                            <gml:beginPosition>2001-07-09T12:34:00Z</gml:beginPosition>
                            <gml:endPosition>2016-07-08T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -764,7 +764,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d275e105">
+                        <gml:TimePeriod gml:id="d275e106">
                            <gml:beginPosition>2001-07-09T12:34:00Z</gml:beginPosition>
                            <gml:endPosition>2016-07-08T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -1220,11 +1220,81 @@
          </gmd:distributor>
       </gmd:MD_Distribution>
    </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>Sat Jul  9 12:56:27 2016: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0133.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Sun Jun 21 14:12:14 2015: ncrcat -d time,51000.00,56810.71667 E01.sbe37.historical.50m.nc new.nc
+Sat Jun  6 13:10:24 2015: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0132.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Sat Sep 20 13:00:02 2014: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0131.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Mon Jun  2 14:23:10 2014: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0130.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Mon Jun 24 12:37:40 2013: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0129.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Wed Jul 11 20:37:36 2012: ncrcat -d time,50000.00,55716.579861 E01.sbe37.historical.50m.nc new.nc
+Sat Apr 14 20:58:43 2012: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0128.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Mon Mar 12 19:54:03 2012: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0127.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Tue Jun 21 16:21:56 2011: ncrcat -d time,51000.00,55349.92708 E01.sbe37.historical.50m.nc new.nc
+Tue Aug 17 17:25:14 2010: ncrcat -d time,50000.00,55090.00764 E01.sbe37.historical.50m.nc new.nc
+Wed Jun  2 23:52:41 2010: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0125.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Tue Nov 10 13:21:03 2009: ncrcat -d time,51000.00,54734.760417 E01.sbe37.historical.50m.nc new.nc
+Tue Sep 15 20:38:36 2009: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0124.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Sun Mar 22 00:16:50 2009: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0123.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Wed Oct  1 19:54:15 2008: /usr/local/bin/ncrcat -d time,0 /data/gomoos/buoy/archive/E01/E01.sbe37.historical.50m.nc /data/gomoos/buoy/archive/E01/E01.sbe37.historical.50m.nc.save000
+Wed Oct  1 13:58:47 2008: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0122.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Tue Sep 30 16:54:33 2008: ncrcat -d time,51000.00,54577.922917 E01.sbe37.historical.50m.nc new.nc
+Fri Jun 13 14:28:57 2008: ncrcat -d time,50000.00,54361.489583 E01.sbe37.historical.50m.nc new.nc
+Sun Apr 20 13:22:15 2008: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0121.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Wed May  9 18:13:04 2007: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0119.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Tue Dec  5 19:10:16 2006: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0118.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Tue Sep 12 12:44:02 2006: /usr/local/bin/ncrcat E01.sbe37.historical.50m.nc E0117.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Fri May  5 20:44:08 2006: ncrcat new7.nc ../E0116/post-recovery/E0116.sbe37.post-recovery.50m.nc new8.nc
+Fri May  5 20:43:44 2006: ncrcat new6.nc ../E0115/post-recovery/E0115.sbe37.post-recovery.50m.nc new7.nc
+Fri May  5 20:43:25 2006: ncrcat new5.nc ../E0114/post-recovery/E0114.sbe37.post-recovery.50m.nc new6.nc
+Fri May  5 20:43:07 2006: ncrcat new4.nc ../E0110/post-recovery/E0110.sbe37.post-recovery.50m.nc new5.nc
+Fri May  5 20:42:51 2006: ncrcat new3.nc ../E0109/post-recovery/E0109.sbe37.post-recovery.50m.nc new4.nc
+Fri May  5 20:42:36 2006: ncrcat new2.nc ../E0108/post-recovery/E0108.sbe37.post-recovery.50m.nc new3.nc
+Fri May  5 20:42:22 2006: ncrcat new1.nc ../E0107/post-recovery/E0107.sbe37.post-recovery.50m.nc new2.nc
+Fri May  5 20:42:07 2006: ncrcat new.nc ../E0106/post-recovery/E0106.sbe37.post-recovery.50m.nc new1.nc
+Fri May  5 20:41:58 2006: ncrcat -d time,2410000.00,2452726.875 E01.sbe37.historical.50m.nc new.nc
+Thu Apr 20 17:30:28 2006: ncrcat -d time,2400000.00,2453655.8333 E01.sbe37.historical.50m.nc new.nc
+Wed Apr 12 16:59:44 2006: /usr/local/nco/bin/ncrcat E01.sbe37.historical.50m.nc E0116.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Tue Oct 11 17:54:32 2005: /usr/local/nco/bin/ncrcat E01.sbe37.historical.50m.nc E0115.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Tue May 31 21:10:56 2005: /usr/local/nco/bin/ncrcat E01.sbe37.historical.50m.nc E0114.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Fri Feb 25 05:56:04 2005: /usr/local/nco/bin/ncrcat E01.sbe37.historical.50m.nc E0113.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Tue Jan  4 21:07:01 2005: /usr/local/nco/bin/ncrcat E01.sbe37.historical.50m.nc E0112.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Fri Nov 19 12:52:50 2004: /usr/local/nco/bin/ncrcat E01.sbe37.historical.50m.nc E0111.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+Mon Oct 18 14:26:20 2004: /usr/local/nco/bin/ncrcat E01.sbe37.historical.50m.nc E0110.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc.new
+10-Jan-2004 18:42:33:  Provisionally appended E0107 realtime data starting at julian date 2452283.83333
+Sat Jan 10 18:42:18 2004: ncrcat E01.sbe37.historical.50m.nc E0107.sbe37.realtime.50m.nc new.nc
+29-Oct-2003 18:21:47:  Provisionally appended E0106 data
+Wed Oct 29 18:16:41 2003: ncrcat /data/gomoos/buoy/archive/E01/E01.sbe37.historical.50m.nc /data/gomoos/buoy/archive/E0106/realtime/E0106.sbe37.realtime.50m.nc E01.sbe37.historical.50m.nc
+21-Aug-2003 13:01:33:  Error in firmware programming resulted in erroneous time stamp.  All times had to be moved back 26 minutes.
+Thu Jul 31 18:53:11 2003: ncatted -a standard_name,conductivity,c,c,sea_water_electrical_conductivity /data/gomoos/buoy/archive/E01/E01.sbe37.historical.50m.nc
+27-Jun-2003 13:02:18:  Added ancillary_variables, intent attributes for CF compliance.
+14-Apr-2003 15:16:45:  Added separate flag for sensor_nonfunctional state.
+07-Apr-2003 16:08:37:  Moved temperature back to celsius.
+01-Apr-2003 22:10:28:  Appended data from E0105.sbe37.post-recovery.50m.nc starting at index 9992.
+Tue Apr  1 22:09:52 2003: ncrcat /data/gomoos/buoy/E01/E01.sbe37.historical.50m.nc ../E0105/E0105.sbe37.post-recovery.50m.nc e.nc
+Wed Feb 26 13:27:41 2003: ncrcat E0101.sbe37.raw.50m.nc E0102.sbe37.post-recovery.50m.nc E0103.sbe37.post-recovery.50m.nc E0104.sbe37.post-recovery.50m.nc E01.sbe37.historical.50m.nc</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-09T19:50:15.121-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-10T19:49:59.546-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

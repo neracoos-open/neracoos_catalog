@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-07-09</gco:Date>
+      <gco:Date>2016-07-10</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>9872</gco:Integer>
+                  <gco:Integer>9873</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">6722.0</gco:Measure>
@@ -210,6 +210,9 @@
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>USGS (B.Butman) SBE16 with Transmissometer</gco:CharacterString>
+               </gmd:otherCitationDetails>
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
@@ -501,16 +504,16 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-69.35518646240234</gco:Decimal>
+                        <gco:Decimal>-69.35780334472656</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-69.35518646240234</gco:Decimal>
+                        <gco:Decimal>-69.35780334472656</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.715599060058594</gco:Decimal>
+                        <gco:Decimal>43.71480178833008</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.715599060058594</gco:Decimal>
+                        <gco:Decimal>43.71480178833008</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -625,23 +628,23 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-69.35518646240234</gco:Decimal>
+                        <gco:Decimal>-69.35780334472656</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-69.35518646240234</gco:Decimal>
+                        <gco:Decimal>-69.35780334472656</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.715599060058594</gco:Decimal>
+                        <gco:Decimal>43.71480178833008</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.715599060058594</gco:Decimal>
+                        <gco:Decimal>43.71480178833008</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d277e127">
+                        <gml:TimePeriod gml:id="d277e119">
                            <gml:beginPosition>2014-06-02T18:00:00Z</gml:beginPosition>
                            <gml:endPosition>2016-07-09T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -781,23 +784,23 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-69.35518646240234</gco:Decimal>
+                        <gco:Decimal>-69.35780334472656</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-69.35518646240234</gco:Decimal>
+                        <gco:Decimal>-69.35780334472656</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>43.715599060058594</gco:Decimal>
+                        <gco:Decimal>43.71480178833008</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>43.715599060058594</gco:Decimal>
+                        <gco:Decimal>43.71480178833008</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d277e126">
+                        <gml:TimePeriod gml:id="d277e118">
                            <gml:beginPosition>2014-06-02T18:00:00Z</gml:beginPosition>
                            <gml:endPosition>2016-07-09T20:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -873,7 +876,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>E01 Central Maine Shelf Sbe16 Trans4 flntus (station_name)</gco:CharacterString>
+                  <gco:CharacterString>E01 Central Maine Shelf Sbe16 (station_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -1517,34 +1520,11 @@
          </gmd:distributor>
       </gmd:MD_Distribution>
    </gmd:distributionInfo>
-   <gmd:dataQualityInfo>
-      <gmd:DQ_DataQuality>
-         <gmd:scope>
-            <gmd:DQ_Scope>
-               <gmd:level>
-                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-               </gmd:level>
-            </gmd:DQ_Scope>
-         </gmd:scope>
-         <gmd:lineage>
-            <gmd:LI_Lineage>
-               <gmd:statement>
-                  <gco:CharacterString>Mon Jun  8 22:21:35 2015: /usr/local/bin/ncrcat -d time,57179.6979166665,57199.6979166665 E0133.sbe16.trans4.flntus.realtime.nc E0133.sbe16.trans4.flntus.realtime.nc.new
-Mon Jun  8 21:37:00 2015: /usr/local/bin/ncrcat -d time,0 /data/gomoos/buoy/archive/E0133/realtime/E0133.sbe16.trans4.flntus.realtime.nc /data/gomoos/buoy/archive/E0133/realtime/E0133.sbe16.trans4.flntus.realtime.nc.save000
-2015-06-06 17:39:17:  Modified [lon,lat] to [-69.355186,43.715599].
-Sat Jun  6 17:36:21 2015: /usr/local/bin/ncrcat -d time,57179.701389,57181.00 E0133.sbe16.trans4.flntus.realtime.nc E0133.sbe16.trans4.flntus.realtime.nc.new
-</gco:CharacterString>
-               </gmd:statement>
-            </gmd:LI_Lineage>
-         </gmd:lineage>
-      </gmd:DQ_DataQuality>
-   </gmd:dataQualityInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-09T19:50:15.598-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-10T19:49:59.93-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

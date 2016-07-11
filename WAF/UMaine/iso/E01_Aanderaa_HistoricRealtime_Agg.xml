@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-07-09</gco:Date>
+      <gco:Date>2016-07-10</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,7 +112,7 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>122665</gco:Integer>
+                  <gco:Integer>122689</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">3859.0</gco:Measure>
@@ -493,7 +493,7 @@
                         <gml:TimePeriod gml:id="d265">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2001-07-09T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -614,9 +614,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d265e105">
+                        <gml:TimePeriod gml:id="d265e106">
                            <gml:beginPosition>2001-07-09T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -770,9 +770,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d265e104">
+                        <gml:TimePeriod gml:id="d265e105">
                            <gml:beginPosition>2001-07-09T12:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-07-09T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2016-07-10T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1270,11 +1270,66 @@
          </gmd:distributor>
       </gmd:MD_Distribution>
    </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>Sat Jul  9 12:54:13 2016: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0133.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Sat Jun  6 13:08:32 2015: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0132.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Sat Sep 20 12:58:16 2014: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0131.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Mon Jun  2 14:21:23 2014: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0130.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Mon Jun 24 12:36:42 2013: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0129.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Tue May  1 19:05:35 2012: ncrcat -d time,50000.00,55349.92708 E01.aanderaa.historical.nc new.nc
+Sat Apr 14 20:57:54 2012: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0128.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Mon Mar 12 19:53:16 2012: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0127.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Wed Jun  2 23:51:59 2010: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0125.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Tue Sep 15 20:38:11 2009: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0124.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Sun Mar 22 00:16:07 2009: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0123.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Wed Oct  1 13:58:09 2008: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0122.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Sun Apr 20 13:21:39 2008: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0121.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Wed May  9 18:12:35 2007: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0119.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Tue Dec  5 19:09:40 2006: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0118.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Tue Sep 12 12:43:27 2006: /usr/local/bin/ncrcat E01.aanderaa.historical.nc E0117.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Wed Apr 12 16:58:52 2006: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0116.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Tue Oct 11 17:53:54 2005: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0115.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Tue May 31 21:10:21 2005: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0114.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Fri Feb 25 05:55:26 2005: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0113.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Tue Jan  4 21:06:32 2005: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0112.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Fri Nov 19 12:52:23 2004: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0111.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Mon Oct 18 14:25:45 2004: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0110.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Thu Jun 10 20:29:47 2004: ncrcat E01.aanderaa.historical.nc /data/gomoos/buoy/archive/E0109/realtime/E0109.aanderaa.realtime.nc allaan.nc
+Thu Jun 10 20:09:24 2004: ncrcat -d time,2452100.0,2452922.7709 E01.aanderaa.historical.nc aannew.nc
+Thu May  6 20:11:07 2004: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0109.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Thu May  6 20:09:45 2004: /usr/local/nco/bin/ncrcat E01.aanderaa.historical.nc E0109.aanderaa.realtime.nc E01.aanderaa.historical.nc.new
+Sat Jan 10 18:33:55 2004: ncrcat E01.aanderaa.historical.nc E0107.aanderaa.realtime.nc new.nc
+29-Oct-2003 18:21:19:  Provisionally appended E0106 data
+Wed Oct 29 18:16:29 2003: ncrcat /data/gomoos/buoy/archive/E01/E01.aanderaa.historical.nc /data/gomoos/buoy/archive/E0106/realtime/E0106.aanderaa.realtime.nc E01.aanderaa.historical.nc
+11-Sep-2003 16:15:09:  Corrected E01 and E02 deployment for current_u and current_v for rotation to true north
+27-Jun-2003 13:02:09:  Added ancillary_variables, intent attributes for CF compliance.
+07-Apr-2003 15:47:42:  Moved temperature back to celsius.  Moved current_u, current_v, current_speed back to cm/s.
+07-Apr-2003 15:24:41:  Added flag_values/flag_meaning attribute pairs.  Now discriminating sensor death from out_of_range.
+01-Apr-2003 21:50:02:  Appended data from E0105.aanderaa.post-recovery.nc starting at index 9935.
+Tue Apr  1 21:48:38 2003: ncrcat /data/gomoos/buoy/E01/E01.aanderaa.historical.nc ../E0105/E0105.aanderaa.post-recovery.nc e.nc
+Sat Feb 22 21:32:00 2003: ncrcat E0101.aanderaa.raw.nc E0102.aanderaa.raw.nc E0103.aanderaa.raw.nc E0104.aanderaa.raw.nc e.nc</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-09T19:50:12.744-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-07-10T19:49:57.61-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
