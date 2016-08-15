@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-08-13</gco:Date>
+      <gco:Date>2016-08-14</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -1260,7 +1260,7 @@ Thu Aug 19 13:54:03 2004: ncrcat -d time,2301000.00,2452221.7917 L01new.sbe37.hi
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-08-13T19:48:16.596-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-08-14T19:48:15.339-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
