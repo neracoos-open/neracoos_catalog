@@ -80,7 +80,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:Date>2016-08-21</gco:Date>
+      <gco:Date>2016-08-22</gco:Date>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
@@ -112,10 +112,10 @@
                                                 codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>100351</gco:Integer>
+                  <gco:Integer>100698</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">3841.0</gco:Measure>
+                  <gco:Measure uom="seconds">3829.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -378,12 +378,6 @@
                   <gco:CharacterString>sea_water_temperature data_quality</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>time_created</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>time_modified</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
                   <gco:CharacterString>longitude</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
@@ -477,16 +471,16 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-65.91242980957031</gco:Decimal>
+                        <gco:Decimal>-65.92669677734375</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-65.91242980957031</gco:Decimal>
+                        <gco:Decimal>-65.92669677734375</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.32663345336914</gco:Decimal>
+                        <gco:Decimal>42.323299407958984</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.32663345336914</gco:Decimal>
+                        <gco:Decimal>42.323299407958984</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -496,7 +490,7 @@
                         <gml:TimePeriod gml:id="d401">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-08-21T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2016-08-22T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -601,25 +595,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-65.91242980957031</gco:Decimal>
+                        <gco:Decimal>-65.92669677734375</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-65.91242980957031</gco:Decimal>
+                        <gco:Decimal>-65.92669677734375</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.32663345336914</gco:Decimal>
+                        <gco:Decimal>42.323299407958984</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.32663345336914</gco:Decimal>
+                        <gco:Decimal>42.323299407958984</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d401e126">
+                        <gml:TimePeriod gml:id="d401e102">
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-08-21T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2016-08-22T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -757,25 +751,25 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-65.91242980957031</gco:Decimal>
+                        <gco:Decimal>-65.92669677734375</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-65.91242980957031</gco:Decimal>
+                        <gco:Decimal>-65.92669677734375</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>42.32663345336914</gco:Decimal>
+                        <gco:Decimal>42.323299407958984</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>42.32663345336914</gco:Decimal>
+                        <gco:Decimal>42.323299407958984</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d401e125">
+                        <gml:TimePeriod gml:id="d401e101">
                            <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2016-08-21T21:59:59Z</gml:endPosition>
+                           <gml:endPosition>2016-08-22T21:59:59Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1078,50 +1072,6 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>time_created</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>double</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Time Record Created (time_created)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>time_modified</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>double</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Time Record Last Modified (time_modified)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
                         <gco:CharacterString>lon</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
@@ -1330,10 +1280,25 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>2016-04-09 11:53:54:  Modified [lon,lat] to [-65.912432,42.326632].
-2016-03-29 15:32:33:  corrected ndbc_site_id global attribute (44039 to 44024)
-2015-11-04 06:33:08:  Modified [lon,lat] to [-65.909557,42.324664].
-Wed Nov  4 06:30:19 2015: /usr/local/bin/ncrcat -d time,57330.079861111,57340.079861111 N0119.aanderaa.realtime.nc N0119.aanderaa.realtime.nc.new
+                  <gco:CharacterString>Fri Aug 19 15:20:44 2016: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0119.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Wed Nov  4 02:55:58 2015: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0118.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Thu Sep 18 17:03:48 2014: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0117.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Wed Jul  2 15:56:25 2014: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0116.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Fri Jun 21 19:28:23 2013: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0115.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Wed Oct 24 18:18:06 2012: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0114.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Thu Apr 12 02:18:57 2012: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0113.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Tue Aug 23 22:28:12 2011: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0112.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Sun Aug  1 14:45:21 2010: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0111.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Mon Sep 21 12:50:45 2009: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0110.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Mon Mar 30 16:59:57 2009: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0109.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Sat Apr 19 12:43:19 2008: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0108.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Fri Apr  6 19:45:49 2007: ncrcat -d time,41000.00,53994.8576 N01.aanderaa.historical.nc new.nc
+Mon Mar 26 12:48:09 2007: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0106.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Mon Mar 26 12:46:59 2007: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0106.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Sat Sep 16 21:39:58 2006: /usr/local/bin/ncrcat N01.aanderaa.historical.nc N0105.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Sat Oct  1 11:53:30 2005: /usr/local/nco/bin/ncrcat N01.aanderaa.historical.nc N0104.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Tue Jul 19 12:44:10 2005: /usr/local/nco/bin/ncrcat N01.aanderaa.historical.nc N0103.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
+Mon May  2 19:54:37 2005: /usr/local/nco/bin/ncrcat N01.aanderaa.historical.nc N0102.aanderaa.realtime.nc N01.aanderaa.historical.nc.new
 </gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
@@ -1344,7 +1309,7 @@ Wed Nov  4 06:30:19 2015: /usr/local/bin/ncrcat -d time,57330.079861111,57340.07
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-08-21T19:48:16.798-04:00)</gco:CharacterString>
+            <gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.4. (2016-08-22T19:48:19.767-04:00)</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
